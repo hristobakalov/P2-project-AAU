@@ -1,4 +1,4 @@
-package hristo.done;
+package com.bignerdranch.android.done;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

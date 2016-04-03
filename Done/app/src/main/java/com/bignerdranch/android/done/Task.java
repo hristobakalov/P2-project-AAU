@@ -4,14 +4,16 @@ import android.media.Image;
 
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.UUID;
 
 /**
  * Created by michalisgratsias on 27/03/16.
  */
 public class Task {
 
+    private UUID mTaskId;
+    private UUID mListId;
     private String mTaskName;
-    private List mTaskList;
     private ArrayList<User> mAssignees;
     private ArrayList<User> mViewers;
     private Date mDueDate;
@@ -20,13 +22,13 @@ public class Task {
     private ArrayList<Image> mPhotos;
     private boolean mCompleted;
     private boolean mVerified;
+    private List mTaskList; // not needed
 
-    public Task(String taskName, List taskList, ArrayList<User> assignees,
+    public Task(String taskName, ArrayList<User> assignees, // not needed
                 ArrayList<User> viewers, Date dueDate, Date reminderDate,
                 ArrayList<String> notes, ArrayList<Image> photos,
                 boolean completed, boolean verified) {
         mTaskName = taskName;
-        mTaskList = taskList;
         mAssignees = assignees;
         mViewers = viewers;
         mDueDate = dueDate;
@@ -37,12 +39,18 @@ public class Task {
         mVerified = verified;
     }
 
-    public Task(String taskName, List taskList) {
-        mTaskName = taskName;
-        mTaskList = taskList;
+    public Task(UUID listId) {
+        mTaskId = UUID.randomUUID();
+        mListId = listId;
     }
 
     public Task() {
+        mTaskId = UUID.randomUUID();
+        mDueDate = new Date();          // for testing only
+    }
+
+    public UUID getTaskId() {
+        return mTaskId;
     }
 
     public String getTaskName() {
