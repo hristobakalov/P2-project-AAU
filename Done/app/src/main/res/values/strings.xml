@@ -9,5 +9,7 @@
     <string name="task_verified_label">Verified?</string>
     <string name="completed_label">Completion</string>
     <string name="verified_label">Verification</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 
 </resources>

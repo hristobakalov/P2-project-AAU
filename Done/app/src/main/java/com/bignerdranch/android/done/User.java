@@ -2,6 +2,7 @@ package com.bignerdranch.android.done;
 
 import android.content.Context;
 import android.media.Image;
+import android.support.design.widget.NavigationView;
 
 import java.util.ArrayList;
 import java.util.UUID;
