@@ -32,20 +32,20 @@ public class UserListFragment extends Fragment {
     @Override
     public void onResume() {
         super.onResume();
-        updateUI();
+        updateUI();                                     // after a change of Activities, updates UI
     }
 
     private void updateUI() {
-        User user = User.get(getActivity());
-        ArrayList<List> lists = user.getUserLists();
+        User user = User.get(getActivity());            // creates User and its Data if not already there (Singleton)
+        ArrayList<List> lists = user.getUserLists();    // gets all Lists of the User
         if (mAdapter == null) {
-            mAdapter = new ListAdapter(lists);
-            mListRecyclerView.setAdapter(mAdapter);}
-        else {mAdapter.notifyDataSetChanged();}
+            mAdapter = new ListAdapter(lists);          // gives lists to adapter
+            mListRecyclerView.setAdapter(mAdapter);}    // connects to recycler view
+        else {mAdapter.notifyDataSetChanged();}         // if existing, updates data changes
     }
 
     private class ListHolder extends RecyclerView.ViewHolder implements View.OnClickListener { // viewholder class
-                                                        // holds reference to the entire view passed to super(view)
+        // holds reference to the entire view passed to super(view)
         private TextView mTitleTextView;
         private List mList;
 
@@ -55,20 +55,20 @@ public class UserListFragment extends Fragment {
             mTitleTextView = (TextView) itemView.findViewById(R.id.list_item_list_title_text_view);
         }
 
-        public void bindList(List list) {
+        public void bindList(List list) {                   // list data entered in fragment viewholder
             mList = list;
             mTitleTextView.setText(mList.getListName());
         }
 
         @Override
         public void onClick(View v) {
-            Intent intent = ListActivity.newIntent(getActivity(), mList.getListId());
+            Intent intent = ListActivity.newIntent(getActivity(), mList.getListId()); //passes listId
             startActivity(intent);
         }
     }
 
     private class ListAdapter extends RecyclerView.Adapter<ListHolder> {  // adapter class
-                                                    // creates needed viewholders, binds them to the data
+        // creates needed viewholders, binds them to the data
         private ArrayList<List> mLists;
 
         public ListAdapter(ArrayList<List> lists) {        // constructor

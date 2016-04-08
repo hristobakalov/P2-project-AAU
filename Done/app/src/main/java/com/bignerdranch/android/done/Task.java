@@ -1,7 +1,6 @@
 package com.bignerdranch.android.done;
 
 import android.media.Image;
-
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.UUID;
@@ -22,7 +21,6 @@ public class Task {
     private ArrayList<Image> mPhotos;
     private boolean mCompleted;
     private boolean mVerified;
-    private List mTaskList; // not needed
 
     public Task(String taskName, ArrayList<User> assignees, // not needed
                 ArrayList<User> viewers, Date dueDate, Date reminderDate,
@@ -39,18 +37,17 @@ public class Task {
         mVerified = verified;
     }
 
-    public Task(UUID listId) {
+    public Task(UUID listId) {                  // constructor with Task ID, List ID
         mTaskId = UUID.randomUUID();
         mListId = listId;
     }
 
-    public Task() {
-        mTaskId = UUID.randomUUID();
-        mDueDate = new Date();          // for testing only
-    }
-
     public UUID getTaskId() {
         return mTaskId;
+    }
+
+    public UUID getListId() {
+        return mListId;
     }
 
     public String getTaskName() {

@@ -19,16 +19,18 @@ import java.util.UUID;
 public class TaskFragment extends Fragment{
 
     private static final String ARG_TASK_ID = "task_id";
+    private static final String ARG_LIST_ID = "list_id";
     private Task mTask;
     private EditText mTitleField;
     private Button mDueDateButton;
     private Button mReminderDateButton;
     private CheckBox mCompletedCheckBox;
     private CheckBox mVerifiedCheckBox;
-                                                            // Fragment-Arguments work just like Intent-Extras for an Activity
-    public static TaskFragment newInstance(UUID taskId) {   // we use a method to create Fragment instead of using Constructor
+    // Fragment-Arguments work just like Intent-Extras for an Activity
+    public static TaskFragment newInstanceT(UUID taskId, UUID listId) {   // we use a method to create Fragment instead of using Constructor
         Bundle args = new Bundle();                         // creates Bundle for arguments
         args.putSerializable(ARG_TASK_ID, taskId);          // adds task ID to Bundle
+        args.putSerializable(ARG_LIST_ID, listId);          // adds list ID to Bundle
         TaskFragment fragment = new TaskFragment();         // creates Fragment instance
         fragment.setArguments(args);                        // sets Arguments
         return fragment;
@@ -38,7 +40,8 @@ public class TaskFragment extends Fragment{
     public void onCreate(Bundle savedInstanceState) {       // it is Public because it can be called by various activities hosting it
         super.onCreate(savedInstanceState);
         UUID taskId = (UUID) getArguments().getSerializable(ARG_TASK_ID);   // accessing Fragment arguments for task id
-        mTask = List.get(getActivity()).getTask(taskId);                    // using a get method of Bundle, to get Task from id
+        UUID listId = (UUID) getArguments().getSerializable(ARG_LIST_ID);   //  RETRIEVES List ID from Intent
+        mTask = User.get(getActivity()).getList(listId).getTask(taskId);    // using a get method to get Task from ids
     }
 
     @Override

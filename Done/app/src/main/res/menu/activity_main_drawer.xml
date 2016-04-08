@@ -30,6 +30,10 @@
                 android:id="@+id/nav_notifications"
 
                 android:title="Notifications"/>
+            <item
+                android:id="@+id/nav_sign_out"
+
+                android:title="Sign Out"/>
         </menu>
     </item>
 

@@ -12,39 +12,20 @@ public class List {
 
     private UUID mListId;
     private String mListName;
-    private ArrayList<User> mListUsers; // not needed
+    private ArrayList<UUID> mListUsers;
     private ArrayList<Task> mListTasks;
-    private static List sList;
-    private Context mAppContext;
-
-    public List(Context appContext) {
-        mAppContext = appContext;
-        mListId = UUID.randomUUID();
-        mListUsers = new ArrayList<User>(); //not needed
-        mListTasks = new ArrayList<Task>();
-        for (int i = 0; i < 25; i++) {
-            Task t = new Task();
-            t.setTaskName("Task # " + i);
-            t.setCompleted(i % 2 == 0); // Every other one
-            mListTasks.add(t);
-        }
-    }
 
     public List() {
+        mListId = UUID.randomUUID();
+        mListUsers = new ArrayList<UUID>();                                 // the Users of the list
+        mListTasks = new ArrayList<Task>();
     }
 
-    public static List get(Context c) {                     // creates list as a Singleton= only 1 object possible
-        if (sList == null) {
-            sList = new List(c.getApplicationContext());    // AppContext gives longer lifetime than Activities
-        }
-        return sList;
-    }
-
-    public ArrayList<Task> getListTasks() {
+    public ArrayList<Task> getListTasks() {                                 // get all List Tasks
         return mListTasks;
     }
 
-    public Task getTask(UUID id) {
+    public Task getTask(UUID id) {                                          // get a List Task by ID
         for (Task t : mListTasks) {
             if (t.getTaskId().equals(id))
                 return t;
@@ -64,12 +45,16 @@ public class List {
         mListName = listName;
     }
 
-    public void addListUser(String mUserName) {
-        // to be implemented
+    public ArrayList<UUID> getListUsers() {
+        return mListUsers;
     }
 
-    public void removeListUser(String mUserName) {
-        // to be implemented
+    public void addListUser(UUID id) {
+        mListUsers.add(id);
+    }
+
+    public void removeListUser(UUID id) {
+        mListUsers.remove(id);
     }
 
     public void addListTask(String mTaskName) {

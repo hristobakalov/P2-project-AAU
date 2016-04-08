@@ -2,9 +2,8 @@ package com.bignerdranch.android.done;
 
 import android.content.Context;
 import android.media.Image;
-import android.support.design.widget.NavigationView;
-
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.UUID;
 
 /**
@@ -12,6 +11,8 @@ import java.util.UUID;
  */
 public class User {
 
+    private static final String TAG = "DoneActivity";
+    private UUID mUserId;
     private String mUserName;
     private String mPassword;
     private String mEmail;
@@ -22,38 +23,52 @@ public class User {
 
     public User(Context appContext) {
         mAppContext = appContext;
-        mUserName = "John"; // Test userName;
-        mPassword = "dfghdfgh"; //Test password;
-        mEmail = "johnDD@cvb.com"; // Test email;
+        mUserId = UUID.randomUUID();
         mUserLists = new ArrayList<List>();
-        for (int i = 0; i < 30; i++) {
+        mUserName = "John";                     // Test userName;
+        mPassword = "dfghdfgh";                 // Test password;
+        mEmail = "johnDD@cvb.com";              // Test email;
+        for (int i = 1; i <= 5+(int)(Math.random()*20); i++) {       // random list number
             List l = new List();
             l.setListName("List Title # " + i + "- Chores");
+            l.addListUser(mUserId);
+            for (int j = 1; j <= 5+(int)(Math.random()*20); j++) {    // random task number
+                Task t = new Task(l.getListId());
+                t.setTaskName("Task # " + j);
+                t.setDueDate(new Date());
+                t.setCompleted(j % 2 == 0); // Every other one
+                l.getListTasks().add(t);
+            }
             mUserLists.add(l);
         }
+        //for (List l: mUserLists){                        TESTING THE DATA
+        //for (Task t: l.getListTasks()) {
+        //Log.d(TAG, " " + l.getListName() + " " + t.getTaskName());
+        //}
+        //}
     }
 
-    public User() {
-        mUserLists = new ArrayList<List>();
-    }
-
-    public static User get(Context c) {                     // creates list as a Singleton= only 1 object possible
+    public static User get(Context c) {                     // creates list as a Singleton= only 1 User object possible
         if (sUser == null) {
             sUser = new User(c.getApplicationContext());    // AppContext gives longer lifetime than Activities
         }
         return sUser;
     }
 
-    public ArrayList<List> getUserLists() {
+    public ArrayList<List> getUserLists() {                         // get all User Lists
         return mUserLists;
     }
 
-    public List getList(UUID id) {
+    public List getList(UUID id) {                                  // get a User-List by ID
         for (List l : mUserLists) {
             if (l.getListId().equals(id))
                 return l;
         }
         return null;
+    }
+
+    public UUID getUserId() {
+        return mUserId;
     }
 
     public String getUserName() {

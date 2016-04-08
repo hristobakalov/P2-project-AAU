@@ -1,9 +1,7 @@
 package com.bignerdranch.android.done;
 
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
-import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;                         // from support library
 import android.support.v4.app.FragmentActivity;                 // from support library
 import android.support.v4.app.FragmentManager;                  // from support library
@@ -13,7 +11,6 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
 /**
  * Created by michalisgratsias on 03/04/16.
@@ -34,17 +31,8 @@ public abstract class SingleFragmentActivity extends FragmentActivity implements
                     .add(R.id.fragment_container, fragment)     // include an ADD operation on it (identified by resource ID of container view)
                     .commit(); }                                // and commit the fragment transaction to the list of the mgr
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        //setSupportActionBar(toolbar);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar); // attaching layout to the Toolbar object
 
-        //FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        //fab.setOnClickListener(new View.OnClickListener() {
-           // @Override
-          //  public void onClick(View view) {
-         //       Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-         //               .setAction("Action", null).show();
-         //   }
-        //});
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -106,6 +94,8 @@ public abstract class SingleFragmentActivity extends FragmentActivity implements
             // Handle changes on the profile
         } else if (id == R.id.nav_notifications) {
             // Handle notifications
+        } else if (id == R.id.nav_sign_out) {
+            // Sign out
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

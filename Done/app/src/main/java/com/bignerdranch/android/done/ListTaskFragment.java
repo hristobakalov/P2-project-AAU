@@ -12,11 +12,30 @@ import android.widget.CheckBox;
 import android.widget.TextView;
 
 import java.util.ArrayList;
+import java.util.UUID;
 
 /**
  * Created by michalisgratsias on 03/04/16.
  */
 public class ListTaskFragment extends Fragment{
+
+    private static final String ARG_LIST_ID = "list_id";
+    private List mList;
+
+    public static ListTaskFragment newInstance(UUID listId) {   // we use a method to create Fragment instead of using Constructor
+        Bundle args = new Bundle();                         // creates Bundle for arguments
+        args.putSerializable(ARG_LIST_ID, listId);          // adds task ID to Bundle
+        ListTaskFragment fragment = new ListTaskFragment();         // creates Fragment instance
+        fragment.setArguments(args);                        // sets Arguments
+        return fragment;
+    }
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {       // it is Public because it can be called by various activities hosting it
+        super.onCreate(savedInstanceState);
+        UUID listId = (UUID) getArguments().getSerializable(ARG_LIST_ID);   // accessing Fragment arguments for task id
+        mList = User.get(getActivity()).getList(listId);                    // using a get method to get List from id
+    }
 
     private RecyclerView mTaskRecyclerView;         // RecyclerView creates only enough views to fill the screen and scrolls them
     private TaskAdapter mAdapter;                  // Adapter controls the data to be displayed by RecyclerView
@@ -38,8 +57,7 @@ public class ListTaskFragment extends Fragment{
     }
 
     private void updateUI() {
-        List list = List.get(getActivity());
-        ArrayList<Task> tasks = list.getListTasks();
+        ArrayList<Task> tasks = mList.getListTasks();
         if (mAdapter == null) {
             mAdapter = new TaskAdapter(tasks);
             mTaskRecyclerView.setAdapter(mAdapter);}
@@ -47,7 +65,7 @@ public class ListTaskFragment extends Fragment{
     }
 
     private class TaskHolder extends RecyclerView.ViewHolder implements View.OnClickListener { // viewholder class
-                                                        // holds reference to the entire view passed to super(view)
+        // holds reference to the entire view passed to super(view)
         private TextView mTitleTextView;
         private TextView mDateTextView;
         private CheckBox mCompletedCheckBox;
@@ -70,13 +88,13 @@ public class ListTaskFragment extends Fragment{
 
         @Override
         public void onClick(View v) {
-            Intent intent = TaskActivity.newIntent(getActivity(), mTask.getTaskId());
-            startActivity(intent);
+            Intent intent = TaskActivity.newIntent(getActivity(), mTask.getTaskId(), mList.getListId());
+            startActivity(intent);                      // passes taskId, listID
         }
     }
 
     private class TaskAdapter extends RecyclerView.Adapter<TaskHolder> {  // adapter class
-                                                    // creates needed viewholders, binds them to the data
+        // creates needed viewholders, binds them to the data
         private ArrayList<Task> mTasks;
 
         public TaskAdapter(ArrayList<Task> tasks) {        // constructor
