@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
+<android.support.v7.widget.RecyclerView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/single_task_recycler_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="10dp">
+
+</android.support.v7.widget.RecyclerView>
+=======
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
               android:layout_width="match_parent"
@@ -72,3 +86,4 @@
               android:text="@string/task_verified_label"/>
 
 </LinearLayout>
+>>>>>>> refs/remotes/origin/master

@@ -11,7 +11,11 @@ import java.util.UUID;
 /**
  * Created by michalisgratsias on 03/04/16.
  */
+<<<<<<< HEAD
+public class ListActivity extends ActivityParent {
+=======
 public class ListActivity extends SingleFragmentActivity {
+>>>>>>> refs/remotes/origin/master
 
     private static final String EXTRA_LIST_ID = "com.bignerdranch.android.done.list_id";
 
