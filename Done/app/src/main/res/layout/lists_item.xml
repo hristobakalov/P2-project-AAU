@@ -4,7 +4,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="4dp"
-<<<<<<< HEAD
                 android:orientation="vertical">
 
     <LinearLayout
@@ -38,24 +37,5 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:background="@color/mainBlueColor"/>
-=======
-                android:orientation="vertical"
-    >
-
-    <TextView
-        android:id="@+id/list_item_list_title_text_view"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize= "15sp"
-        android:textColor="@color/textColor"
-        android:padding="4dp"
-        android:layout_marginLeft="15dp"
-        tools:text="List Title"/>
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@color/mainBlueColor"
-        />
->>>>>>> refs/remotes/origin/master
 
 </LinearLayout>

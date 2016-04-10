@@ -5,10 +5,7 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;                     // from support library
 import android.support.v7.widget.LinearLayoutManager;       // from support library
 import android.support.v7.widget.RecyclerView;              // from support library
-<<<<<<< HEAD
 import android.util.Log;
-=======
->>>>>>> refs/remotes/origin/master
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -20,10 +17,7 @@ import java.util.ArrayList;
  */
 public class UserListFragment extends Fragment {
 
-<<<<<<< HEAD
     private static final String TAG = "DoneActivity";
-=======
->>>>>>> refs/remotes/origin/master
     private RecyclerView mListRecyclerView;        // RecyclerView creates only enough views to fill the screen and scrolls them
     private ListAdapter mAdapter;                  // Adapter controls the data to be displayed by RecyclerView
 
@@ -55,29 +49,20 @@ public class UserListFragment extends Fragment {
     private class ListHolder extends RecyclerView.ViewHolder implements View.OnClickListener { // viewholder class
         // holds reference to the entire view passed to super(view)
         private TextView mTitleTextView;
-<<<<<<< HEAD
         private TextView mCounterTextView;
-=======
->>>>>>> refs/remotes/origin/master
         private List mList;
 
         public ListHolder(View itemView) {     // constructor - stashes the views
             super(itemView);
             itemView.setOnClickListener(this);
             mTitleTextView = (TextView) itemView.findViewById(R.id.list_item_list_title_text_view);
-<<<<<<< HEAD
             mCounterTextView = (TextView) itemView.findViewById(R.id.list_item_list_counter_text_view);
-=======
->>>>>>> refs/remotes/origin/master
         }
 
         public void bindList(List list) {                   // list data entered in fragment viewholder
             mList = list;
             mTitleTextView.setText(mList.getListName());
-<<<<<<< HEAD
             mCounterTextView.setText("Tasks: " + mList.getListTasks().size());
-=======
->>>>>>> refs/remotes/origin/master
         }
 
         @Override

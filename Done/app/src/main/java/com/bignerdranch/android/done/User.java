@@ -2,11 +2,8 @@ package com.bignerdranch.android.done;
 
 import android.content.Context;
 import android.media.Image;
-<<<<<<< HEAD
 import android.util.Log;
 
-=======
->>>>>>> refs/remotes/origin/master
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.UUID;
@@ -46,15 +43,9 @@ public class User {
             }
             mUserLists.add(l);
         }
-<<<<<<< HEAD
         //for (List l: mUserLists){                      //  TESTING THE DATA
         //for (Task t: l.getListTasks()) {
         //Log.d(TAG, " " + l.getListTasks().size());// + " " + t.getTaskName());
-=======
-        //for (List l: mUserLists){                        TESTING THE DATA
-        //for (Task t: l.getListTasks()) {
-        //Log.d(TAG, " " + l.getListName() + " " + t.getTaskName());
->>>>>>> refs/remotes/origin/master
         //}
         //}
     }
