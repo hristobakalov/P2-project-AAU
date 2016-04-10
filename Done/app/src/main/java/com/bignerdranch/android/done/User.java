@@ -2,6 +2,8 @@ package com.bignerdranch.android.done;
 
 import android.content.Context;
 import android.media.Image;
+import android.util.Log;
+
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.UUID;
@@ -41,9 +43,9 @@ public class User {
             }
             mUserLists.add(l);
         }
-        //for (List l: mUserLists){                        TESTING THE DATA
+        //for (List l: mUserLists){                      //  TESTING THE DATA
         //for (Task t: l.getListTasks()) {
-        //Log.d(TAG, " " + l.getListName() + " " + t.getTaskName());
+        //Log.d(TAG, " " + l.getListTasks().size());// + " " + t.getTaskName());
         //}
         //}
     }

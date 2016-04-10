@@ -252,7 +252,6 @@ public class TaskFragment extends Fragment{
         @Override
         public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {              // needs new view
             LayoutInflater layoutInflater = LayoutInflater.from(getActivity());
-            Log.d(TAG, "View Type : " + viewType);
             switch (viewType) {
                 case 0: {View view = layoutInflater.inflate(R.layout.detailed_task_item_0, parent, false); return new TaskHolder0(view);}
                 case 1: {View view = layoutInflater.inflate(R.layout.detailed_task_item_1, parent, false); return new TaskHolder1(view);}
@@ -270,7 +269,6 @@ public class TaskFragment extends Fragment{
 
         @Override
         public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) { // binds viewholder's view to a model object
-            Log.d(TAG, "Position: " + position);
             Task task = mTasks[position];
             switch (getItemViewType(position)){
                 case 0: TaskHolder0 h0 = (TaskHolder0)holder; h0.bindTask(task); break;

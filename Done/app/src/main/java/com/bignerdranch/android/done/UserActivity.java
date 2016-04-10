@@ -19,7 +19,7 @@ public class UserActivity extends ActivityParent {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar); // attaching layout to the Toolbar object
-        toolbar.setTitle("My To-Do Lists");
+        toolbar.setTitle("My " + User.get(getApplicationContext()).getUserLists().size() + " To-Do Lists");
     }
 }
 

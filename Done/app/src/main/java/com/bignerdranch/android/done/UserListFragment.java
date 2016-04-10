@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;                     // from support library
 import android.support.v7.widget.LinearLayoutManager;       // from support library
 import android.support.v7.widget.RecyclerView;              // from support library
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,6 +17,7 @@ import java.util.ArrayList;
  */
 public class UserListFragment extends Fragment {
 
+    private static final String TAG = "DoneActivity";
     private RecyclerView mListRecyclerView;        // RecyclerView creates only enough views to fill the screen and scrolls them
     private ListAdapter mAdapter;                  // Adapter controls the data to be displayed by RecyclerView
 
@@ -47,17 +49,20 @@ public class UserListFragment extends Fragment {
     private class ListHolder extends RecyclerView.ViewHolder implements View.OnClickListener { // viewholder class
         // holds reference to the entire view passed to super(view)
         private TextView mTitleTextView;
+        private TextView mCounterTextView;
         private List mList;
 
         public ListHolder(View itemView) {     // constructor - stashes the views
             super(itemView);
             itemView.setOnClickListener(this);
             mTitleTextView = (TextView) itemView.findViewById(R.id.list_item_list_title_text_view);
+            mCounterTextView = (TextView) itemView.findViewById(R.id.list_item_list_counter_text_view);
         }
 
         public void bindList(List list) {                   // list data entered in fragment viewholder
             mList = list;
             mTitleTextView.setText(mList.getListName());
+            mCounterTextView.setText("Tasks: " + mList.getListTasks().size());
         }
 
         @Override
