@@ -13,8 +13,8 @@ public class Task {
     private UUID mTaskId;
     private UUID mListId;
     private String mTaskName;
-    private ArrayList<User> mAssignees;
-    private ArrayList<User> mViewers;
+    private ArrayList<String> mAssignees;
+    private ArrayList<String> mViewers = new ArrayList<>();
     private Date mDueDate;
     private Date mReminderDate;
     private ArrayList<String> mNotes;
@@ -22,8 +22,8 @@ public class Task {
     private boolean mCompleted;
     private boolean mVerified;
 
-    public Task(String taskName, ArrayList<User> assignees, // not needed
-                ArrayList<User> viewers, Date dueDate, Date reminderDate,
+    public Task(String taskName, ArrayList<String> assignees,
+                ArrayList<String> viewers, Date dueDate, Date reminderDate,
                 ArrayList<String> notes, ArrayList<Image> photos,
                 boolean completed, boolean verified) {
         mTaskName = taskName;
@@ -40,6 +40,15 @@ public class Task {
     public Task(UUID listId) {                  // constructor with Task ID, List ID
         mTaskId = UUID.randomUUID();
         mListId = listId;
+        mAssignees = new ArrayList<>();
+        mViewers= new ArrayList<>();
+        mDueDate = new Date();
+        mReminderDate = new Date();
+        mNotes = new ArrayList<>();
+        mPhotos = new ArrayList<>();
+    }
+
+    public Task() {
     }
 
     public UUID getTaskId() {
@@ -58,7 +67,7 @@ public class Task {
         mTaskName = taskName;
     }
 
-    public ArrayList<User> getAssignees() {
+    public ArrayList<String> getAssignees() {
         return mAssignees;
     }
 
@@ -70,7 +79,7 @@ public class Task {
         // to be implemented
     }
 
-    public ArrayList<User> getViewers() {
+    public ArrayList<String> getViewers() {
         return mViewers;
     }
 
@@ -102,6 +111,10 @@ public class Task {
         return mNotes;
     }
 
+    public void setNotes(ArrayList<String> notes) {
+        mNotes = notes;
+    }
+
     public void addNote(String mNote) {
         // to be implemented
     }
@@ -112,6 +125,10 @@ public class Task {
 
     public ArrayList<Image> getPhotos() {
         return mPhotos;
+    }
+
+    public void setPhotos(ArrayList<Image> photos) {
+        mPhotos = photos;
     }
 
     public void addPhoto(Image mPhoto) {

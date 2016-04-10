@@ -1,74 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent"
-              android:paddingLeft="20dp"
-              android:paddingTop="10dp"
-              android:paddingBottom="15dp">
+<android.support.v7.widget.RecyclerView
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/task_name_label"
-        style="?android:listSeparatorTextViewStyle"/>
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/single_task_recycler_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="10dp">
 
-    <EditText
-        android:id="@+id/crime_title"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:hint="@string/task_name_hint"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/task_due_date_label"
-        style="?android:listSeparatorTextViewStyle"/>
-
-    <Button android:id="@+id/due_date"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/task_reminder_date_label"
-        style="?android:listSeparatorTextViewStyle"/>
-
-    <Button android:id="@+id/reminder_date"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/completed_label"
-        style="?android:listSeparatorTextViewStyle"/>
-
-    <CheckBox android:id="@+id/task_completed"
-              android:layout_width="match_parent"
-              android:layout_height="wrap_content"
-              android:layout_marginLeft="16dp"
-              android:layout_marginRight="16dp"
-              android:text="@string/task_completed_label"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/verified_label"
-        style="?android:listSeparatorTextViewStyle"/>
-
-    <CheckBox android:id="@+id/task_verified"
-              android:layout_width="match_parent"
-              android:layout_height="wrap_content"
-              android:layout_marginLeft="16dp"
-              android:layout_marginRight="16dp"
-              android:text="@string/task_verified_label"/>
-
-</LinearLayout>
+</android.support.v7.widget.RecyclerView>

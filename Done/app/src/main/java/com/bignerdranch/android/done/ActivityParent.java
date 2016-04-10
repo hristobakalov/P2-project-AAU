@@ -1,5 +1,6 @@
 package com.bignerdranch.android.done;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;                         // from support library
@@ -15,7 +16,7 @@ import android.view.MenuItem;
 /**
  * Created by michalisgratsias on 03/04/16.
  */
-public abstract class SingleFragmentActivity extends FragmentActivity implements NavigationView.OnNavigationItemSelectedListener {
+public abstract class ActivityParent extends FragmentActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     protected abstract Fragment createFragment();               // abstract method not implemented here
 
@@ -82,8 +83,9 @@ public abstract class SingleFragmentActivity extends FragmentActivity implements
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_my_lists) {
+        if (id == R.id.nav_my_to_do_lists) {
             // Get back to the original Lists page
+            startActivity(new Intent(getApplicationContext(), UserActivity.class));
         } else if (id == R.id.nav_incomplete_tasks) {
             // Show all incomplete tasks sorted by list name
         } else if (id == R.id.nav_unverified_tasks) {
