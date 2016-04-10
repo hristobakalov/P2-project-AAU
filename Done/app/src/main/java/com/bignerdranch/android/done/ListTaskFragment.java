@@ -10,10 +10,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.CheckBox;
 import android.widget.TextView;
-<<<<<<< HEAD
-=======
-
->>>>>>> refs/remotes/origin/master
 import java.util.ArrayList;
 import java.util.UUID;
 
