@@ -35,6 +35,10 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:background="@color/mainBlueColor"
+<<<<<<< HEAD
         android:layout_below="@id/list_item_task_due_date_text_view"/>
+=======
+        />
+>>>>>>> refs/remotes/origin/master
 
 </RelativeLayout>

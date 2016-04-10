@@ -2,11 +2,16 @@ package com.bignerdranch.android.done;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;                 // from support library
+<<<<<<< HEAD
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Log;
+=======
+import android.text.Editable;
+import android.text.TextWatcher;
+>>>>>>> refs/remotes/origin/master
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,7 +19,10 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
+<<<<<<< HEAD
 
+=======
+>>>>>>> refs/remotes/origin/master
 import java.util.UUID;
 
 /**
@@ -22,6 +30,7 @@ import java.util.UUID;
  */
 public class TaskFragment extends Fragment{
 
+<<<<<<< HEAD
     private static final String TAG = "DoneActivity";
     private static final String ARG_TASK_ID = "task_id";
     private static final String ARG_LIST_ID = "list_id";
@@ -30,6 +39,18 @@ public class TaskFragment extends Fragment{
 
     // Fragment-Arguments work just like Intent-Extras for an Activity
     public static TaskFragment newInstance(UUID taskId, UUID listId) {   // we use a method to create Fragment instead of using Constructor
+=======
+    private static final String ARG_TASK_ID = "task_id";
+    private static final String ARG_LIST_ID = "list_id";
+    private Task mTask;
+    private EditText mTitleField;
+    private Button mDueDateButton;
+    private Button mReminderDateButton;
+    private CheckBox mCompletedCheckBox;
+    private CheckBox mVerifiedCheckBox;
+    // Fragment-Arguments work just like Intent-Extras for an Activity
+    public static TaskFragment newInstanceT(UUID taskId, UUID listId) {   // we use a method to create Fragment instead of using Constructor
+>>>>>>> refs/remotes/origin/master
         Bundle args = new Bundle();                         // creates Bundle for arguments
         args.putSerializable(ARG_TASK_ID, taskId);          // adds task ID to Bundle
         args.putSerializable(ARG_LIST_ID, listId);          // adds list ID to Bundle
@@ -46,6 +67,7 @@ public class TaskFragment extends Fragment{
         mTask = User.get(getActivity()).getList(listId).getTask(taskId);    // using a get method to get Task from ids
     }
 
+<<<<<<< HEAD
     private RecyclerView mTaskRecyclerView;         // RecyclerView creates only enough views to fill the screen and scrolls them
     private TaskAdapter mAdapter;                  // Adapter controls the data to be displayed by RecyclerView
 
@@ -292,3 +314,56 @@ public class TaskFragment extends Fragment{
 
 
 
+=======
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup parent, // here the layout of a fragment's view is inflated
+                             Bundle savedInstanceState) {               // view can be re-created from saved state via Bundle data
+
+        View v = inflater.inflate(R.layout.fragment_task, parent, false); // view added to the code of activity, not to view's parent
+
+        mTitleField = (EditText)v.findViewById(R.id.crime_title);
+        mTitleField.setText(mTask.getTaskName());
+        mTitleField.addTextChangedListener(new TextWatcher() {
+            public void onTextChanged(
+                    CharSequence c, int start, int before, int count) { // CharSequence is user input
+                mTask.setTaskName(c.toString());
+            }
+
+            public void beforeTextChanged(
+                    CharSequence c, int start, int count, int after) {
+                // This space intentionally left blank
+            }
+
+            public void afterTextChanged(Editable c) {
+                // This one too
+            }
+        });
+
+        mDueDateButton = (Button)v.findViewById(R.id.due_date);
+        mDueDateButton.setText(mTask.getDueDate().toString());
+        mDueDateButton.setEnabled(false);
+
+        mReminderDateButton = (Button)v.findViewById(R.id.reminder_date);
+        mReminderDateButton.setText(mTask.getDueDate().toString());
+        mReminderDateButton.setEnabled(false);
+
+        mCompletedCheckBox = (CheckBox)v.findViewById(R.id.task_completed);
+        mCompletedCheckBox.setChecked(mTask.isCompleted());
+        mCompletedCheckBox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                mTask.setCompleted(isChecked);
+            }
+        });
+
+        mVerifiedCheckBox = (CheckBox)v.findViewById(R.id.task_verified);
+        mVerifiedCheckBox.setChecked(mTask.isCompleted());
+        mVerifiedCheckBox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                mTask.setCompleted(isChecked);
+            }
+        });
+
+        return v;
+    }
+}
+>>>>>>> refs/remotes/origin/master
