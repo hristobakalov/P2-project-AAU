@@ -13,6 +13,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.firebase.client.Firebase;
+
 /**
  * Created by michalisgratsias on 03/04/16.
  */
@@ -22,6 +24,7 @@ public abstract class ActivityParent extends FragmentActivity implements Navigat
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
+        Firebase.setAndroidContext(this);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.navigation_layout);             // view inflated from xml layout
         FragmentManager fm = getSupportFragmentManager();       // FM responsible for managing Fragments and adding their Views
