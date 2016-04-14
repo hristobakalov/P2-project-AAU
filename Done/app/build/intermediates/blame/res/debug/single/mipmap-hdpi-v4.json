@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Done Test/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/done_appicon.png",
+        "source": "/Users/michalisgratsias/AndroidStudioProjects/Done Test/app/src/main/res/mipmap-hdpi/done_appicon.png"
+    },
+    {
+        "merged": "/Users/michalisgratsias/P2-project-AAU/Done/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/ic_launcher.png",
+        "source": "/Users/michalisgratsias/P2-project-AAU/Done/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Done/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/ic_launcher.png",
+        "source": "/Users/michalisgratsias/AndroidStudioProjects/Done/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Done/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/done_appicon.png",
+        "source": "/Users/michalisgratsias/AndroidStudioProjects/Done/app/src/main/res/mipmap-hdpi/done_appicon.png"
+    },
+    {
+        "merged": "/Users/michalisgratsias/P2-project-AAU/Done/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/done_appicon.png",
+        "source": "/Users/michalisgratsias/P2-project-AAU/Done/app/src/main/res/mipmap-hdpi/done_appicon.png"
+    },
+    {
+        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Done Test/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/ic_launcher.png",
+        "source": "/Users/michalisgratsias/AndroidStudioProjects/Done Test/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    }
+]
