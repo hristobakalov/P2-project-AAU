@@ -1,12 +1,14 @@
 package com.bignerdranch.android.done;
 
+import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;                 // from support library
+import android.support.v4.app.FragmentManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,6 +17,8 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.UUID;
 
 /**
@@ -25,8 +29,19 @@ public class TaskFragment extends Fragment{
     private static final String TAG = "DoneActivity";
     private static final String ARG_TASK_ID = "task_id";
     private static final String ARG_LIST_ID = "list_id";
-    private Task mTask;
+    private static final String DIALOG_DATE = "DialogDate";
+    //private static final int REQUEST_DATE = 0;
     private Task[] taskfrags = new Task[9];
+    private Task mTask;
+    private EditText mTitleField;
+    private Button mAssignedTo;
+    private Button mHiddenFrom;
+    private Button mDueDateButton;
+    private Button mReminderDateButton;
+    private Button mAddNote;
+    private Button mAddPhoto;
+    private CheckBox mCompletedCheckBox;
+    private CheckBox mVerifiedCheckBox;
 
     // Fragment-Arguments work just like Intent-Extras for an Activity
     public static TaskFragment newInstance(UUID taskId, UUID listId) {   // we use a method to create Fragment instead of using Constructor
@@ -60,6 +75,32 @@ public class TaskFragment extends Fragment{
     }
 
     @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if (resultCode != Activity.RESULT_OK) {
+            return;
+        }
+        if (requestCode == 0) {
+            Date date = (Date) data.getSerializableExtra(DueDatePickerFragment.EXTRA_DATE);
+            mTask.setDueDate(date);
+            updateDueDate();
+        } else {
+            Date date = (Date) data.getSerializableExtra(ReminderDatePickerFragment.EXTRA_DATE);
+            mTask.setReminderDate(date);
+            updateReminderDate();
+        }
+    }
+
+    private void updateDueDate() {
+        SimpleDateFormat format = new SimpleDateFormat("EEEE MMM dd, yyyy");
+        mDueDateButton.setText(format.format(mTask.getDueDate()));
+    }
+
+    private void updateReminderDate() {
+        SimpleDateFormat format = new SimpleDateFormat("EEEE MMM dd, yyyy");
+        mReminderDateButton.setText(format.format(mTask.getReminderDate()));
+    }
+
+    @Override
     public void onResume() {
         super.onResume();
         updateUI();
@@ -74,8 +115,6 @@ public class TaskFragment extends Fragment{
     }
 
     private class TaskHolder0 extends RecyclerView.ViewHolder {  // viewholder class holds reference to the entire view passed to super(view)
-
-        private EditText mTitleField;
 
         public TaskHolder0(View itemView) {     // constructor - stashes the views
             super(itemView);
@@ -103,8 +142,6 @@ public class TaskFragment extends Fragment{
 
     private class TaskHolder1 extends RecyclerView.ViewHolder {  // viewholder class holds reference to the entire view passed to super(view)
 
-        private Button mAssignedTo;
-
         public TaskHolder1(View itemView) {     // constructor - stashes the views
             super(itemView);
             mAssignedTo = (Button) itemView.findViewById(R.id.assigned_to);
@@ -118,8 +155,6 @@ public class TaskFragment extends Fragment{
     }
 
     private class TaskHolder2 extends RecyclerView.ViewHolder {  // viewholder class holds reference to the entire view passed to super(view)
-
-        private Button mHiddenFrom;
 
         public TaskHolder2(View itemView) {     // constructor - stashes the views
             super(itemView);
@@ -135,8 +170,6 @@ public class TaskFragment extends Fragment{
 
     private class TaskHolder3 extends RecyclerView.ViewHolder {  // viewholder class holds reference to the entire view passed to super(view)
 
-        private Button mDueDateButton;
-
         public TaskHolder3(View itemView) {     // constructor - stashes the views
             super(itemView);
             mDueDateButton = (Button) itemView.findViewById(R.id.due_date);
@@ -144,14 +177,20 @@ public class TaskFragment extends Fragment{
 
         public void bindTask(Task task) {
             mTask = task;
-            mDueDateButton.setText(mTask.getDueDate().toString());
-            mDueDateButton.setEnabled(false);
+            updateDueDate();
+            mDueDateButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    FragmentManager manager = getFragmentManager();
+                    DueDatePickerFragment dialog = DueDatePickerFragment.newInstance(mTask.getDueDate()); //shows due date
+                    dialog.setTargetFragment(TaskFragment.this, 0);
+                    dialog.show(manager, DIALOG_DATE);
+                }
+            });
         }
     }
 
     private class TaskHolder4 extends RecyclerView.ViewHolder {  // viewholder class holds reference to the entire view passed to super(view)
-
-        private Button mReminderDateButton;
 
         public TaskHolder4(View itemView) {     // constructor - stashes the views
             super(itemView);
@@ -160,14 +199,20 @@ public class TaskFragment extends Fragment{
 
         public void bindTask(Task task) {
             mTask = task;
-            mReminderDateButton.setText(mTask.getDueDate().toString());
-            mReminderDateButton.setEnabled(false);
+            updateReminderDate();
+            mReminderDateButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    FragmentManager manager = getFragmentManager();
+                    ReminderDatePickerFragment dialog = ReminderDatePickerFragment.newInstance(mTask.getReminderDate()); //shows reminder date
+                    dialog.setTargetFragment(TaskFragment.this, 1);
+                    dialog.show(manager, DIALOG_DATE);
+                }
+            });
         }
     }
 
     private class TaskHolder5 extends RecyclerView.ViewHolder {  // viewholder class holds reference to the entire view passed to super(view)
-
-        private Button mAddNote;
 
         public TaskHolder5(View itemView) {     // constructor - stashes the views
             super(itemView);
@@ -182,8 +227,6 @@ public class TaskFragment extends Fragment{
 
     private class TaskHolder6 extends RecyclerView.ViewHolder {  // viewholder class holds reference to the entire view passed to super(view)
 
-        private Button mAddPhoto;
-
         public TaskHolder6(View itemView) {     // constructor - stashes the views
             super(itemView);
             mAddPhoto = (Button) itemView.findViewById(R.id.add_photo);
@@ -197,8 +240,6 @@ public class TaskFragment extends Fragment{
     }
 
     private class TaskHolder7 extends RecyclerView.ViewHolder {  // viewholder class holds reference to the entire view passed to super(view)
-
-        private CheckBox mCompletedCheckBox;
 
         public TaskHolder7(View itemView) {     // constructor - stashes the views
             super(itemView);
@@ -217,8 +258,6 @@ public class TaskFragment extends Fragment{
     }
 
     private class TaskHolder8 extends RecyclerView.ViewHolder {  // viewholder class holds reference to the entire view passed to super(view)
-
-        private CheckBox mVerifiedCheckBox;
 
         public TaskHolder8(View itemView) {     // constructor - stashes the views
             super(itemView);

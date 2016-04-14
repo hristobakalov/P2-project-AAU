@@ -10,6 +10,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.CheckBox;
 import android.widget.TextView;
+
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.UUID;
 
@@ -74,14 +76,15 @@ public class ListTaskFragment extends Fragment{
             super(itemView);
             itemView.setOnClickListener(this);
             mTitleTextView = (TextView) itemView.findViewById(R.id.list_item_task_title_text_view);
-            mDateTextView = (TextView) itemView.findViewById(R.id.list_item_task_due_date_text_view);
+            mDateTextView = (TextView) itemView.findViewById(R.id.list_item_task_created_date_text_view);
             mCompletedCheckBox = (CheckBox) itemView.findViewById(R.id.list_item_task_completed_check_box);
         }
 
         public void bindTask(Task task) {
             mTask = task;
             mTitleTextView.setText(mTask.getTaskName());
-            mDateTextView.setText(mTask.getDueDate().toString());
+            SimpleDateFormat format = new SimpleDateFormat("EEE MMM dd, yyyy hh:mm a");
+            mDateTextView.setText("Date Created: " + format.format(mTask.getCreatedDate()));
             mCompletedCheckBox.setChecked(mTask.isCompleted());
         }
 

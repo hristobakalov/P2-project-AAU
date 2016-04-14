@@ -34,10 +34,10 @@ public class User {
             List l = new List();
             l.setListName("List Title # " + i + "- Chores");
             l.addListUser(mUserId);
-            for (int j = 1; j <= 5+(int)(Math.random()*20); j++) {    // random task number
+            for (int j = 1; j <= 5+(int)(Math.random()*10); j++) {    // random task number
                 Task t = new Task(l.getListId());
                 t.setTaskName("Task # " + j);
-                t.setDueDate(new Date());
+                t.setCreatedDate(new Date());
                 t.setCompleted(j % 2 == 0); // Every other one
                 l.getListTasks().add(t);
             }

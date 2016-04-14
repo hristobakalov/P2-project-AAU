@@ -23,7 +23,7 @@
         tools:text="Task Title"/>
 
     <TextView
-        android:id="@+id/list_item_task_due_date_text_view"
+        android:id="@+id/list_item_task_created_date_text_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@id/list_item_task_completed_check_box"
@@ -35,6 +35,6 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:background="@color/mainBlueColor"
-        android:layout_below="@id/list_item_task_due_date_text_view"/>
+        android:layout_below="@id/list_item_task_created_date_text_view"/>
 
 </RelativeLayout>

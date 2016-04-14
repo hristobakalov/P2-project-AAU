@@ -12,6 +12,7 @@ public class Task {
 
     private UUID mTaskId;
     private UUID mListId;
+    private Date mCreatedDate;
     private String mTaskName;
     private ArrayList<String> mAssignees;
     private ArrayList<String> mViewers = new ArrayList<>();
@@ -39,6 +40,7 @@ public class Task {
 
     public Task(UUID listId) {                  // constructor with Task ID, List ID
         mTaskId = UUID.randomUUID();
+        mCreatedDate = new Date();
         mListId = listId;
         mAssignees = new ArrayList<>();
         mViewers= new ArrayList<>();
@@ -89,6 +91,14 @@ public class Task {
 
     public void removeViewer(String mUserName) {
         // to be implemented
+    }
+
+    public Date getCreatedDate() {
+        return mCreatedDate;
+    }
+
+    public void setCreatedDate(Date createdDate) {
+        mCreatedDate = createdDate;
     }
 
     public Date getDueDate() {
