@@ -64,20 +64,20 @@
         "source": "/Users/michalisgratsias/P2-project-AAU/Done/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
-        "merged": "/Users/michalisgratsias/P2-project-AAU/Done/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png",
-        "source": "/Users/michalisgratsias/P2-project-AAU/Done/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
         "merged": "/Users/michalisgratsias/AndroidStudioProjects/Done/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png",
         "source": "/Users/michalisgratsias/AndroidStudioProjects/Done/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Done Test/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_star_half_black_36dp.png",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Done Test/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-xhdpi-v4/abc_ic_star_half_black_36dp.png"
+        "merged": "/Users/michalisgratsias/P2-project-AAU/Done/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "/Users/michalisgratsias/P2-project-AAU/Done/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "/Users/michalisgratsias/AndroidStudioProjects/Done/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png",
         "source": "/Users/michalisgratsias/AndroidStudioProjects/Done/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Done Test/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_star_half_black_36dp.png",
+        "source": "/Users/michalisgratsias/AndroidStudioProjects/Done Test/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-xhdpi-v4/abc_ic_star_half_black_36dp.png"
     },
     {
         "merged": "/Users/michalisgratsias/AndroidStudioProjects/Done Test/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png",
@@ -254,6 +254,10 @@
     {
         "merged": "/Users/michalisgratsias/AndroidStudioProjects/Done/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_star_half_black_16dp.png",
         "source": "/Users/michalisgratsias/AndroidStudioProjects/Done/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-xhdpi-v4/abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Done/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_menu_add.png",
+        "source": "/Users/michalisgratsias/AndroidStudioProjects/Done/app/src/main/res/drawable-xhdpi/ic_menu_add.png"
     },
     {
         "merged": "/Users/michalisgratsias/P2-project-AAU/Done/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_go_search_api_mtrl_alpha.png",
