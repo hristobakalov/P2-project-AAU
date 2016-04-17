@@ -24,6 +24,11 @@
     <item android:title="Settings">
         <menu>
             <item
+                android:id="@+id/nav_user_login"
+
+                android:title="Login"/>
+
+            <item
                 android:id="@+id/nav_profile"
 
                 android:title="Profile"/>

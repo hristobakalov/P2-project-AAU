@@ -6,9 +6,6 @@ import android.support.v4.app.Fragment;                 // from support library
 import android.support.v7.widget.LinearLayoutManager;   // from support library
 import android.support.v7.widget.RecyclerView;          // from support library
 import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.CheckBox;
@@ -37,7 +34,6 @@ public class ListTaskFragment extends Fragment{
     @Override
     public void onCreate(Bundle savedInstanceState) {       // it is Public because it can be called by various activities hosting it
         super.onCreate(savedInstanceState);
-        setHasOptionsMenu(true);
         UUID listId = (UUID) getArguments().getSerializable(ARG_LIST_ID);   // accessing Fragment arguments for task id
         mList = User.get(getActivity()).getList(listId);                    // using a get method to get List from id
     }
@@ -59,25 +55,6 @@ public class ListTaskFragment extends Fragment{
     public void onResume() {
         super.onResume();
         updateUI();
-    }
-
-    @Override
-    public void onCreateOptionsMenu (Menu menu, MenuInflater inflater) {
-        super.onCreateOptionsMenu(menu, inflater);
-        inflater.inflate(R.menu.fragment_list_task, menu);
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.menu_item_new_task:
-                Task task = new Task();
-                mList.addListTask(task);
-                Intent intent = TaskActivity.newIntent(getActivity(),task.getTaskId(), mList.getListId());
-                startActivity(intent);
-                return true;
-            default: return super.onOptionsItemSelected(item);
-        }
     }
 
     private void updateUI() {

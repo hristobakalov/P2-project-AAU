@@ -11,7 +11,6 @@ import java.util.UUID;
 public class List {
 
     private UUID mListId;
-    private UUID mUserId;
     private String mListName;
     private ArrayList<UUID> mListUsers;
     private ArrayList<Task> mListTasks;
@@ -19,7 +18,6 @@ public class List {
     public List() {
         mListId = UUID.randomUUID();
         mListUsers = new ArrayList<UUID>();                                 // the Users of the list
-        //mListUsers.add(User.getUserId());
         mListTasks = new ArrayList<Task>();
     }
 
@@ -59,11 +57,11 @@ public class List {
         mListUsers.remove(id);
     }
 
-    public void addListTask(Task task) {
-        mListTasks.add(task);
+    public void addListTask(String mTaskName) {
+        // to be implemented
     }
 
-    public void removeListTask(Task task) {
-        mListTasks.remove(task);
+    public void removeListTask(String mTaskName) {
+        // to be implemented
     }
 }

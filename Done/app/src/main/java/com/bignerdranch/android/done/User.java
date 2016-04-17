@@ -104,12 +104,4 @@ public class User {
     public void setPhoto(Image photo) {
         mPhoto = photo;
     }
-
-    public void addUserList(List list) {
-        sUser.mUserLists.add(list);
-    }
-
-    public void removeUserList(List list) {
-        sUser.mUserLists.remove(list);
-    }
 }
