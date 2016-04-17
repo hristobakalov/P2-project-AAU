@@ -4,6 +4,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;                 // from support library
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.widget.Toolbar;
 
 
@@ -31,15 +33,8 @@ public class TaskActivity extends ActivityParent {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-<<<<<<< HEAD
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar); // attaching layout to the Toolbar object
-        UUID taskId = (UUID) getIntent().getSerializableExtra(EXTRA_TASK_ID);   //  RETRIEVES Task ID from Intent
-        UUID listId = (UUID) getIntent().getSerializableExtra(EXTRA_LIST_ID);   //  RETRIEVES List ID from Intent
-        toolbar.setTitle(User.get(this).getList(listId).getTask(taskId).getTaskName());
-=======
         UUID taskId = (UUID) getIntent().getSerializableExtra(EXTRA_TASK_ID);   //  RETRIEVES Task ID from Intent
         UUID listId = (UUID) getIntent().getSerializableExtra(EXTRA_LIST_ID);   //  RETRIEVES List ID from Intent
         getSupportActionBar().setTitle(User.get(this).getList(listId).getTask(taskId).getTaskName());
->>>>>>> MichaelAAU-patch-1
     }
 }

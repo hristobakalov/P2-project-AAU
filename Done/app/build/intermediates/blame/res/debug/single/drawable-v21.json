@@ -1,17 +1,13 @@
 [
     {
-        "merged": "D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
-        "source": "D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Done Test/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/michalisgratsias/AndroidStudioProjects/Done Test/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-v21/abc_btn_colored_material.xml"
     },
     {
-        "merged": "D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
-        "source": "D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-v21\\abc_btn_colored_material.xml"
+        "merged": "/Users/michalisgratsias/P2-project-AAU/Done/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/michalisgratsias/P2-project-AAU/Done/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-v21/abc_btn_colored_material.xml"
     },
     {
-<<<<<<< HEAD
-        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
-        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-v21\\abc_btn_colored_material.xml"
-=======
         "merged": "/Users/michalisgratsias/AndroidStudioProjects/Done after +/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
         "source": "/Users/michalisgratsias/AndroidStudioProjects/Done after +/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-v21/abc_edit_text_material.xml"
     },
@@ -20,53 +16,59 @@
         "source": "/Users/michalisgratsias/AndroidStudioProjects/Done after +/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-v21/abc_action_bar_item_background_material.xml"
     },
     {
+        "merged": "/Users/michalisgratsias/AndroidStudioProjects/DoneLast/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/michalisgratsias/AndroidStudioProjects/DoneLast/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
         "merged": "/Users/michalisgratsias/AndroidStudioProjects/Done/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
         "source": "/Users/michalisgratsias/AndroidStudioProjects/Done/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-v21/abc_action_bar_item_background_material.xml"
->>>>>>> MichaelAAU-patch-1
     },
     {
-        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
-        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Done Test/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/michalisgratsias/AndroidStudioProjects/Done Test/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-v21/abc_edit_text_material.xml"
     },
     {
-        "merged": "D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
-        "source": "D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+        "merged": "/Users/michalisgratsias/P2-project-AAU/Done/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/michalisgratsias/P2-project-AAU/Done/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-v21/abc_action_bar_item_background_material.xml"
     },
     {
-        "merged": "D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
-        "source": "D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-v21\\abc_edit_text_material.xml"
+        "merged": "/Users/michalisgratsias/P2-project-AAU/Done/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/michalisgratsias/P2-project-AAU/Done/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-v21/abc_edit_text_material.xml"
     },
     {
-        "merged": "D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
-        "source": "D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-v21\\abc_btn_colored_material.xml"
+        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Done+/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/michalisgratsias/AndroidStudioProjects/Done+/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-v21/abc_action_bar_item_background_material.xml"
     },
     {
-        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
-        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-v21\\abc_edit_text_material.xml"
+        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Done/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/michalisgratsias/AndroidStudioProjects/Done/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-v21/abc_edit_text_material.xml"
     },
     {
-<<<<<<< HEAD
-        "merged": "D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
-        "source": "D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-v21\\abc_edit_text_material.xml"
+        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Done+/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/michalisgratsias/AndroidStudioProjects/Done+/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-v21/abc_edit_text_material.xml"
     },
     {
-        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
-        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-v21\\abc_edit_text_material.xml"
+        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Done/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/michalisgratsias/AndroidStudioProjects/Done/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-v21/abc_btn_colored_material.xml"
     },
     {
-        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
-        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
-    },
-    {
-        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
-        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-v21\\abc_btn_colored_material.xml"
-=======
         "merged": "/Users/michalisgratsias/AndroidStudioProjects/Done Test/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
         "source": "/Users/michalisgratsias/AndroidStudioProjects/Done Test/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-v21/abc_action_bar_item_background_material.xml"
     },
     {
+        "merged": "/Users/michalisgratsias/AndroidStudioProjects/DoneLast/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/michalisgratsias/AndroidStudioProjects/DoneLast/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
         "merged": "/Users/michalisgratsias/AndroidStudioProjects/Done after +/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
         "source": "/Users/michalisgratsias/AndroidStudioProjects/Done after +/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-v21/abc_btn_colored_material.xml"
->>>>>>> MichaelAAU-patch-1
+    },
+    {
+        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Done+/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/michalisgratsias/AndroidStudioProjects/Done+/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/michalisgratsias/AndroidStudioProjects/DoneLast/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/michalisgratsias/AndroidStudioProjects/DoneLast/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-v21/abc_btn_colored_material.xml"
     }
 ]

@@ -1,52 +1,50 @@
 [
     {
-        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\done_appicon.png",
-        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\src\\main\\res\\mipmap-xxhdpi\\done_appicon.png"
+        "merged": "/Users/michalisgratsias/P2-project-AAU/Done/app/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/ic_launcher.png",
+        "source": "/Users/michalisgratsias/P2-project-AAU/Done/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-<<<<<<< HEAD
-        "merged": "D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\done_appicon.png",
-        "source": "D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\src\\main\\res\\mipmap-xxhdpi\\done_appicon.png"
-=======
+        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Done+/app/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/done_appicon.png",
+        "source": "/Users/michalisgratsias/AndroidStudioProjects/Done+/app/src/main/res/mipmap-xxhdpi/done_appicon.png"
+    },
+    {
+        "merged": "/Users/michalisgratsias/AndroidStudioProjects/DoneLast/app/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/done_appicon.png",
+        "source": "/Users/michalisgratsias/AndroidStudioProjects/DoneLast/app/src/main/res/mipmap-xxhdpi/done_appicon.png"
+    },
+    {
+        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Done+/app/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/ic_launcher.png",
+        "source": "/Users/michalisgratsias/AndroidStudioProjects/Done+/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
         "merged": "/Users/michalisgratsias/AndroidStudioProjects/Done after +/app/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/ic_launcher.png",
         "source": "/Users/michalisgratsias/AndroidStudioProjects/Done after +/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
         "merged": "/Users/michalisgratsias/AndroidStudioProjects/Done/app/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/done_appicon.png",
         "source": "/Users/michalisgratsias/AndroidStudioProjects/Done/app/src/main/res/mipmap-xxhdpi/done_appicon.png"
->>>>>>> MichaelAAU-patch-1
     },
     {
-        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher.png",
-        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "/Users/michalisgratsias/P2-project-AAU/Done/app/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/done_appicon.png",
+        "source": "/Users/michalisgratsias/P2-project-AAU/Done/app/src/main/res/mipmap-xxhdpi/done_appicon.png"
     },
     {
-        "merged": "D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher.png",
-        "source": "D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Done Test/app/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/ic_launcher.png",
+        "source": "/Users/michalisgratsias/AndroidStudioProjects/Done Test/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher.png",
-        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Done/app/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/ic_launcher.png",
+        "source": "/Users/michalisgratsias/AndroidStudioProjects/Done/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-<<<<<<< HEAD
-        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\done_appicon.png",
-        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\src\\main\\res\\mipmap-xxhdpi\\done_appicon.png"
+        "merged": "/Users/michalisgratsias/AndroidStudioProjects/DoneLast/app/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/ic_launcher.png",
+        "source": "/Users/michalisgratsias/AndroidStudioProjects/DoneLast/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher.png",
-        "source": "D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\done_appicon.png",
-        "source": "D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\src\\main\\res\\mipmap-xxhdpi\\done_appicon.png"
-=======
         "merged": "/Users/michalisgratsias/AndroidStudioProjects/Done after +/app/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/done_appicon.png",
         "source": "/Users/michalisgratsias/AndroidStudioProjects/Done after +/app/src/main/res/mipmap-xxhdpi/done_appicon.png"
     },
     {
         "merged": "/Users/michalisgratsias/AndroidStudioProjects/Done Test/app/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/done_appicon.png",
         "source": "/Users/michalisgratsias/AndroidStudioProjects/Done Test/app/src/main/res/mipmap-xxhdpi/done_appicon.png"
->>>>>>> MichaelAAU-patch-1
     }
 ]

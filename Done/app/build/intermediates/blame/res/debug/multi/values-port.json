@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\res\\merged\\debug\\values-port\\values-port.xml",
+        "outputFile": "/Users/michalisgratsias/AndroidStudioProjects/Done+/app/build/intermediates/res/merged/debug/values-port/values-port.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 106
                 },
                 "from": {
-                    "file": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-port\\values-port.xml",
+                    "file": "/Users/michalisgratsias/AndroidStudioProjects/Done+/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-port/values-port.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -24,9 +24,30 @@
         ]
     },
     {
-<<<<<<< HEAD
-        "outputFile": "D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\values-port\\values-port.xml",
-=======
+        "outputFile": "/Users/michalisgratsias/P2-project-AAU/Done/app/build/intermediates/res/merged/debug/values-port/values-port.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 55,
+                    "endOffset": 106
+                },
+                "from": {
+                    "file": "/Users/michalisgratsias/P2-project-AAU/Done/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-port/values-port.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 55,
+                        "endOffset": 106
+                    }
+                }
+            }
+        ]
+    },
+    {
         "outputFile": "/Users/michalisgratsias/AndroidStudioProjects/Done after +/app/build/intermediates/res/merged/debug/values-port/values-port.xml",
         "map": [
             {
@@ -52,7 +73,6 @@
     },
     {
         "outputFile": "/Users/michalisgratsias/AndroidStudioProjects/Done Test/app/build/intermediates/res/merged/debug/values-port/values-port.xml",
->>>>>>> MichaelAAU-patch-1
         "map": [
             {
                 "to": {
@@ -63,7 +83,7 @@
                     "endOffset": 106
                 },
                 "from": {
-                    "file": "D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-port\\values-port.xml",
+                    "file": "/Users/michalisgratsias/AndroidStudioProjects/Done Test/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-port/values-port.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -76,7 +96,7 @@
         ]
     },
     {
-        "outputFile": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\res\\merged\\debug\\values-port\\values-port.xml",
+        "outputFile": "/Users/michalisgratsias/AndroidStudioProjects/DoneLast/app/build/intermediates/res/merged/debug/values-port/values-port.xml",
         "map": [
             {
                 "to": {
@@ -87,7 +107,7 @@
                     "endOffset": 106
                 },
                 "from": {
-                    "file": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-port\\values-port.xml",
+                    "file": "/Users/michalisgratsias/AndroidStudioProjects/DoneLast/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-port/values-port.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -100,7 +120,7 @@
         ]
     },
     {
-        "outputFile": "D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\values-port\\values-port.xml",
+        "outputFile": "/Users/michalisgratsias/AndroidStudioProjects/Done/app/build/intermediates/res/merged/debug/values-port/values-port.xml",
         "map": [
             {
                 "to": {
@@ -111,7 +131,7 @@
                     "endOffset": 106
                 },
                 "from": {
-                    "file": "D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-port\\values-port.xml",
+                    "file": "/Users/michalisgratsias/AndroidStudioProjects/Done/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-port/values-port.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

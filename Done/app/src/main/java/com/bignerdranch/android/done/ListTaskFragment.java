@@ -9,6 +9,9 @@ import android.support.v7.widget.LinearLayoutManager;   // from support library
 import android.support.v7.widget.RecyclerView;          // from support library
 import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.CheckBox;
@@ -40,6 +43,7 @@ public class ListTaskFragment extends Fragment{
     @Override
     public void onCreate(Bundle savedInstanceState) {       // it is Public because it can be called by various activities hosting it
         super.onCreate(savedInstanceState);
+        setHasOptionsMenu(true);
         UUID listId = (UUID) getArguments().getSerializable(ARG_LIST_ID);   // accessing Fragment arguments for task id
         mList = User.get(getActivity()).getList(listId);                    // using a get method to get List from id
     }
@@ -63,8 +67,6 @@ public class ListTaskFragment extends Fragment{
         updateUI();
     }
 
-<<<<<<< HEAD
-=======
     @Override
     public void onCreateOptionsMenu (Menu menu, MenuInflater inflater) {
         super.onCreateOptionsMenu(menu, inflater);
@@ -98,7 +100,6 @@ public class ListTaskFragment extends Fragment{
         }
     }
 
->>>>>>> MichaelAAU-patch-1
     private void updateUI() {
         ArrayList<Task> tasks = mList.getListTasks();
         if (mAdapter == null) {

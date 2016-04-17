@@ -1,16 +1,22 @@
 package com.bignerdranch.android.done;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;                     // from support library
+import android.support.v4.app.FragmentManager;
 import android.support.v7.widget.LinearLayoutManager;       // from support library
 import android.support.v7.widget.RecyclerView;              // from support library
 import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import java.util.ArrayList;
+import java.util.Date;
 
 /**
  * Created by michalisgratsias on 03/04/16.
@@ -18,8 +24,16 @@ import java.util.ArrayList;
 public class UserListFragment extends Fragment {
 
     private static final String TAG = "DoneActivity";
+    private static final String DIALOG_LIST_TITLE = "DialogListTitle";
     private RecyclerView mListRecyclerView;        // RecyclerView creates only enough views to fill the screen and scrolls them
     private ListAdapter mAdapter;                  // Adapter controls the data to be displayed by RecyclerView
+    private List mNewList;
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {   // it is Public because it can be called by various activities hosting it
+        super.onCreate(savedInstanceState);
+        setHasOptionsMenu(true);
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -37,8 +51,6 @@ public class UserListFragment extends Fragment {
         updateUI();                                     // after a change of Activities, updates UI
     }
 
-<<<<<<< HEAD
-=======
     @Override
     public void onCreateOptionsMenu (Menu menu, MenuInflater inflater) {
         super.onCreateOptionsMenu(menu, inflater);
@@ -49,7 +61,7 @@ public class UserListFragment extends Fragment {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.menu_item_new_list:
-                mNewList = new List();
+                mNewList = new List(User.get(getActivity()).getUserId());
                 User.get(getActivity()).addUserList(mNewList);
                 FragmentManager manager = getFragmentManager();
                 ListTitlePickerFragment dialog = new ListTitlePickerFragment(); //shows dialog for new list
@@ -72,7 +84,6 @@ public class UserListFragment extends Fragment {
         }
     }
 
->>>>>>> MichaelAAU-patch-1
     private void updateUI() {
         User user = User.get(getActivity());            // creates User and its Data if not already there (Singleton)
         ArrayList<List> lists = user.getUserLists();    // gets all Lists of the User
