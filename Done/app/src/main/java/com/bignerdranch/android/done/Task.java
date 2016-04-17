@@ -127,8 +127,8 @@ public class Task {
         mNotes = notes;
     }
 
-    public void addNote(String mNote) {
-        // to be implemented
+    public void addNote(String note) {
+        mNotes.add(note);
     }
 
     public void removeNote(String mNote) {

@@ -16,6 +16,7 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
+import android.widget.TextView;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -29,8 +30,9 @@ public class TaskFragment extends Fragment{
     private static final String TAG = "DoneActivity";
     private static final String ARG_TASK_ID = "task_id";
     private static final String ARG_LIST_ID = "list_id";
-    private static final String DIALOG_DATE = "DialogDate";
-    //private static final int REQUEST_DATE = 0;
+    private static final String DIALOG_DATE1 = "DialogDate1"; // uniquely identifies the Fragment in the FM list
+    private static final String DIALOG_DATE2 = "DialogDate2";
+    private static final String DIALOG_NOTES = "DialogNotes";
     private Task[] taskfrags = new Task[9];
     private Task mTask;
     private EditText mTitleField;
@@ -39,6 +41,7 @@ public class TaskFragment extends Fragment{
     private Button mDueDateButton;
     private Button mReminderDateButton;
     private Button mAddNote;
+    private TextView mNotesText;
     private Button mAddPhoto;
     private CheckBox mCompletedCheckBox;
     private CheckBox mVerifiedCheckBox;
@@ -79,14 +82,25 @@ public class TaskFragment extends Fragment{
         if (resultCode != Activity.RESULT_OK) {
             return;
         }
-        if (requestCode == 0) {
-            Date date = (Date) data.getSerializableExtra(DueDatePickerFragment.EXTRA_DATE);
-            mTask.setDueDate(date);
-            updateDueDate();
-        } else {
-            Date date = (Date) data.getSerializableExtra(ReminderDatePickerFragment.EXTRA_DATE);
-            mTask.setReminderDate(date);
-            updateReminderDate();
+        switch (requestCode) {
+            case 0: {
+                Date date = (Date) data.getSerializableExtra(DueDatePickerFragment.EXTRA_DATE);
+                mTask.setDueDate(date);
+                updateDueDate();
+            }
+            case 1: {
+                Date date = (Date) data.getSerializableExtra(ReminderDatePickerFragment.EXTRA_DATE);
+                mTask.setReminderDate(date);
+                updateReminderDate();
+            }
+            case 2: {
+                String note = (String) data.getSerializableExtra(NotesPickerFragment.EXTRA_TITLE);
+                mTask.addNote(note);
+                mNotesText.setText(mNotesText.getText() + "\n" + User.get(getActivity()).getUserName() + ": "+note);
+            }
+
+
+
         }
     }
 
@@ -184,7 +198,7 @@ public class TaskFragment extends Fragment{
                     FragmentManager manager = getFragmentManager();
                     DueDatePickerFragment dialog = DueDatePickerFragment.newInstance(mTask.getDueDate()); //shows due date
                     dialog.setTargetFragment(TaskFragment.this, 0);
-                    dialog.show(manager, DIALOG_DATE);
+                    dialog.show(manager, DIALOG_DATE1);
                 }
             });
         }
@@ -206,7 +220,7 @@ public class TaskFragment extends Fragment{
                     FragmentManager manager = getFragmentManager();
                     ReminderDatePickerFragment dialog = ReminderDatePickerFragment.newInstance(mTask.getReminderDate()); //shows reminder date
                     dialog.setTargetFragment(TaskFragment.this, 1);
-                    dialog.show(manager, DIALOG_DATE);
+                    dialog.show(manager, DIALOG_DATE2);
                 }
             });
         }
@@ -217,11 +231,21 @@ public class TaskFragment extends Fragment{
         public TaskHolder5(View itemView) {     // constructor - stashes the views
             super(itemView);
             mAddNote = (Button) itemView.findViewById(R.id.add_note);
+            mNotesText = (TextView) itemView.findViewById(R.id.notes);
+            for (String n: mTask.getNotes()) mNotesText.setText(mNotesText.getText()+"\n"+ User.get(getActivity()).getUserName() + ": "+n);
         }
 
         public void bindTask(Task task) {
             mTask = task;
-            mAddNote.setText("None"); mAddNote.setEnabled(false);
+            mAddNote.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    FragmentManager manager = getFragmentManager();
+                    NotesPickerFragment dialog = new NotesPickerFragment(); //shows reminder date
+                    dialog.setTargetFragment(TaskFragment.this, 2);
+                    dialog.show(manager, DIALOG_NOTES);
+                }
+            });
         }
     }
 
