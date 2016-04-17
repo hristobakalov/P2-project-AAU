@@ -31,7 +31,7 @@ public class User {
         mPassword = "dfghdfgh";                 // Test password;
         mEmail = "johnDD@cvb.com";              // Test email;
         for (int i = 1; i <= 5+(int)(Math.random()*20); i++) {       // random list number
-            List l = new List();
+            List l = new List(mUserId);
             l.setListName("List Title # " + i + "- Chores");
             l.addListUser(mUserId);
             for (int j = 1; j <= 5+(int)(Math.random()*10); j++) {    // random task number

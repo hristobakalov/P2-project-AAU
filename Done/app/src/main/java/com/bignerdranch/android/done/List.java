@@ -16,10 +16,10 @@ public class List {
     private ArrayList<UUID> mListUsers;
     private ArrayList<Task> mListTasks;
 
-    public List() {
+    public List(UUID userId) {
         mListId = UUID.randomUUID();
         mListUsers = new ArrayList<UUID>();                                 // the Users of the list
-        //mListUsers.add(User.getUserId());
+        mListUsers.add(userId);
         mListTasks = new ArrayList<Task>();
     }
 

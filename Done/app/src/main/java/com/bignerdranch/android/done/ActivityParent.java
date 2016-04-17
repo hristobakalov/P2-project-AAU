@@ -57,12 +57,12 @@ public abstract class ActivityParent extends AppCompatActivity implements Naviga
         }
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the main; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
-        return true;
-    }
+//    @Override
+//    public boolean onCreateOptionsMenu(Menu menu) {
+//        // Inflate the main; this adds items to the action bar if it is present.
+//        getMenuInflater().inflate(R.menu.main, menu);
+//        return true;
+//    }
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
@@ -72,7 +72,10 @@ public abstract class ActivityParent extends AppCompatActivity implements Naviga
 
         if (id == R.id.nav_my_to_do_lists) {
             // Get back to the original Lists page
-            startActivity(new Intent(getApplicationContext(), UserActivity.class));
+            Intent intent = new Intent(getApplicationContext(), UserActivity.class);
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(intent);
+            finish();
         } else if (id == R.id.nav_incomplete_tasks) {
             // Show all incomplete tasks sorted by list name
         } else if (id == R.id.nav_unverified_tasks) {

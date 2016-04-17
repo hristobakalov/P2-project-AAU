@@ -61,7 +61,7 @@ public class UserListFragment extends Fragment {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.menu_item_new_list:
-                mNewList = new List();
+                mNewList = new List(User.get(getActivity()).getUserId());
                 User.get(getActivity()).addUserList(mNewList);
                 FragmentManager manager = getFragmentManager();
                 ListTitlePickerFragment dialog = new ListTitlePickerFragment(); //shows dialog for new list
