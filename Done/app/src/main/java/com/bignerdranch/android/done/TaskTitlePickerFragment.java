@@ -14,25 +14,25 @@ import android.view.View;
 import android.widget.EditText;
 
 /**
- * Created by michalisgratsias on 15/04/16.
+ * Created by michalisgratsias on 17/04/16.
  */
-public class ListTitlePickerFragment extends DialogFragment {
+public class TaskTitlePickerFragment extends DialogFragment{
 
-    public static final String EXTRA_TITLE = "com.bignerdranch.android.done.listTitle";
+    public static final String EXTRA_TITLE = "com.bignerdranch.android.done.taskTitle";
     private EditText mTitleField;
-    private String mListTitle;
+    private String mTaskTitle;
 
     @Override
     public Dialog onCreateDialog (Bundle savedInstance) {
 
         View v = LayoutInflater.from(getActivity())
-                .inflate(R.layout.dialog_list_title,null);
+                .inflate(R.layout.dialog_task_title,null);
 
-        mTitleField = (EditText) v.findViewById(R.id.list_title);
+        mTitleField = (EditText) v.findViewById(R.id.task_title);
 
         mTitleField.addTextChangedListener(new TextWatcher() {
             public void onTextChanged(CharSequence c, int start, int before, int count) { // CharSequence is user input
-                mListTitle = c.toString();
+                mTaskTitle = c.toString();
             }
             public void beforeTextChanged(CharSequence c, int start, int count, int after) {
                 // This space intentionally left blank
@@ -44,11 +44,11 @@ public class ListTitlePickerFragment extends DialogFragment {
 
         return new AlertDialog.Builder(getActivity())          // this class provides a fluent interface for constructing
                 .setView(v)
-                .setTitle(R.string.list_title_picker_title)      // an object of Alert Dialog (pop-up)
+                .setTitle(R.string.task_title_picker_title)      // an object of Alert Dialog (pop-up)
                 .setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {    // here you pass the object that implements
                     @Override                                                                      // the listener interface
                     public void onClick(DialogInterface dialog, int which) {
-                        sendResult(Activity.RESULT_OK,mListTitle);
+                        sendResult(Activity.RESULT_OK,mTaskTitle);
                     }
                 })
                 .create();
@@ -64,6 +64,3 @@ public class ListTitlePickerFragment extends DialogFragment {
                 .onActivityResult(getTargetRequestCode(), resultCode, intent);
     }
 }
-
-
-

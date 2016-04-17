@@ -17,6 +17,7 @@
     <string name="completed_label">Completion:</string>
     <string name="verified_label">Verification:</string>
     <string name="list_title_picker_title">Name of New List:</string>
+    <string name="task_title_picker_title">Name of New Task:</string>
     <string name="due_date_picker_title">Task Due Date:</string>
     <string name="reminder_date_picker_title">Task Reminder Date:</string>
     <string name="new_task">New Task</string>

@@ -1,10 +1,13 @@
 package com.bignerdranch.android.done;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;                 // from support library
+import android.support.v4.app.FragmentManager;
 import android.support.v7.widget.LinearLayoutManager;   // from support library
 import android.support.v7.widget.RecyclerView;          // from support library
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -23,8 +26,11 @@ import java.util.UUID;
  */
 public class ListTaskFragment extends Fragment{
 
+    private static final String TAG = "DoneActivity";
+    private static final String DIALOG_TASK_TITLE = "DialogTaskTitle";
     private static final String ARG_LIST_ID = "list_id";
     private List mList;
+    private Task mNewTask;
 
     public static ListTaskFragment newInstance(UUID listId) {   // we use a method to create Fragment instead of using Constructor
         Bundle args = new Bundle();                         // creates Bundle for arguments
@@ -71,12 +77,26 @@ public class ListTaskFragment extends Fragment{
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.menu_item_new_task:
-                Task task = new Task();
-                mList.addListTask(task);
-                Intent intent = TaskActivity.newIntent(getActivity(),task.getTaskId(), mList.getListId());
-                startActivity(intent);
+                mNewTask = new Task(mList.getListId());
+                mList.addListTask(mNewTask);
+                FragmentManager manager = getFragmentManager();
+                TaskTitlePickerFragment dialog = new TaskTitlePickerFragment(); //shows dialog for new task
+                dialog.setTargetFragment(ListTaskFragment.this, 11);
+                dialog.show(manager, DIALOG_TASK_TITLE);
                 return true;
             default: return super.onOptionsItemSelected(item);
+        }
+    }
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if (resultCode != Activity.RESULT_OK) {
+            return;
+        }
+        if (requestCode == 11) {
+            String title = (String) data.getSerializableExtra(TaskTitlePickerFragment.EXTRA_TITLE);
+            mNewTask.setTaskName(title);
+            updateUI();
         }
     }
 

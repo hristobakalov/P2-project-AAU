@@ -2506,26 +2506,27 @@ containing a value of this type.
         public static final int detailed_task_item_7=0x7f04002e;
         public static final int detailed_task_item_8=0x7f04002f;
         public static final int dialog_date=0x7f040030;
-        public static final int dialog_title=0x7f040031;
-        public static final int fragment_list_task=0x7f040032;
-        public static final int fragment_task=0x7f040033;
-        public static final int fragment_user_list=0x7f040034;
-        public static final int lists_item=0x7f040035;
-        public static final int nav_header_main=0x7f040036;
-        public static final int navigation_layout=0x7f040037;
-        public static final int notification_media_action=0x7f040038;
-        public static final int notification_media_cancel_action=0x7f040039;
-        public static final int notification_template_big_media=0x7f04003a;
-        public static final int notification_template_big_media_narrow=0x7f04003b;
-        public static final int notification_template_lines=0x7f04003c;
-        public static final int notification_template_media=0x7f04003d;
-        public static final int notification_template_part_chronometer=0x7f04003e;
-        public static final int notification_template_part_time=0x7f04003f;
-        public static final int select_dialog_item_material=0x7f040040;
-        public static final int select_dialog_multichoice_material=0x7f040041;
-        public static final int select_dialog_singlechoice_material=0x7f040042;
-        public static final int support_simple_spinner_dropdown_item=0x7f040043;
-        public static final int tasks_item=0x7f040044;
+        public static final int dialog_list_title=0x7f040031;
+        public static final int dialog_task_title=0x7f040032;
+        public static final int fragment_list_task=0x7f040033;
+        public static final int fragment_task=0x7f040034;
+        public static final int fragment_user_list=0x7f040035;
+        public static final int lists_item=0x7f040036;
+        public static final int nav_header_main=0x7f040037;
+        public static final int navigation_layout=0x7f040038;
+        public static final int notification_media_action=0x7f040039;
+        public static final int notification_media_cancel_action=0x7f04003a;
+        public static final int notification_template_big_media=0x7f04003b;
+        public static final int notification_template_big_media_narrow=0x7f04003c;
+        public static final int notification_template_lines=0x7f04003d;
+        public static final int notification_template_media=0x7f04003e;
+        public static final int notification_template_part_chronometer=0x7f04003f;
+        public static final int notification_template_part_time=0x7f040040;
+        public static final int select_dialog_item_material=0x7f040041;
+        public static final int select_dialog_multichoice_material=0x7f040042;
+        public static final int select_dialog_singlechoice_material=0x7f040043;
+        public static final int support_simple_spinner_dropdown_item=0x7f040044;
+        public static final int tasks_item=0x7f040045;
     }
     public static final class menu {
         public static final int activity_main_drawer=0x7f0d0000;
@@ -2584,8 +2585,9 @@ containing a value of this type.
         public static final int task_hidden_from_label=0x7f06002b;
         public static final int task_name_label=0x7f06002c;
         public static final int task_reminder_date_label=0x7f06002d;
-        public static final int task_verified_label=0x7f06002e;
-        public static final int verified_label=0x7f06002f;
+        public static final int task_title_picker_title=0x7f06002e;
+        public static final int task_verified_label=0x7f06002f;
+        public static final int verified_label=0x7f060030;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f090087;

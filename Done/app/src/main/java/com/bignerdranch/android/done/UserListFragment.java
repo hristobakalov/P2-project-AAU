@@ -64,7 +64,7 @@ public class UserListFragment extends Fragment {
                 mNewList = new List();
                 User.get(getActivity()).addUserList(mNewList);
                 FragmentManager manager = getFragmentManager();
-                ListTitlePickerFragment dialog = new ListTitlePickerFragment(); //shows
+                ListTitlePickerFragment dialog = new ListTitlePickerFragment(); //shows dialog for new list
                 dialog.setTargetFragment(UserListFragment.this, 10);
                 dialog.show(manager, DIALOG_LIST_TITLE);
                 return true;
