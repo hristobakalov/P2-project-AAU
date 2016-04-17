@@ -812,12 +812,21 @@ int layout detailed_task_item_6 0x7f04002d
 int layout detailed_task_item_7 0x7f04002e
 int layout detailed_task_item_8 0x7f04002f
 int layout dialog_date 0x7f040030
+<<<<<<< HEAD
 int layout fragment_list_task 0x7f040031
 int layout fragment_task 0x7f040032
 int layout fragment_user_list 0x7f040033
 int layout lists_item 0x7f040034
 int layout login_activity 0x7f040035
 int layout login_layout 0x7f040036
+=======
+int layout dialog_list_title 0x7f040031
+int layout dialog_task_title 0x7f040032
+int layout fragment_list_task 0x7f040033
+int layout fragment_task 0x7f040034
+int layout fragment_user_list 0x7f040035
+int layout lists_item 0x7f040036
+>>>>>>> MichaelAAU-patch-1
 int layout nav_header_main 0x7f040037
 int layout navigation_layout 0x7f040038
 int layout notification_media_action 0x7f040039
@@ -877,6 +886,7 @@ int string prompt_email 0x7f060025
 int string prompt_password 0x7f060026
 int string reminder_date_picker_title 0x7f060027
 int string status_bar_notification_info_overflow 0x7f060013
+<<<<<<< HEAD
 int string task_add_note_label 0x7f060028
 int string task_add_photo_label 0x7f060029
 int string task_assigned_to_label 0x7f06002a
@@ -898,6 +908,28 @@ int style Animation_Design_BottomSheetDialog 0x7f09008c
 int style AppTheme 0x7f09008d
 int style AppTheme_AppBarOverlay 0x7f09008e
 int style AppTheme_NoActionBar 0x7f090037
+=======
+int string subtitle_format 0x7f060025
+int string task_add_note_label 0x7f060026
+int string task_add_photo_label 0x7f060027
+int string task_assigned_to_label 0x7f060028
+int string task_completed_label 0x7f060029
+int string task_due_date_label 0x7f06002a
+int string task_hidden_from_label 0x7f06002b
+int string task_name_label 0x7f06002c
+int string task_reminder_date_label 0x7f06002d
+int string task_title_picker_title 0x7f06002e
+int string task_verified_label 0x7f06002f
+int string verified_label 0x7f060030
+int style AlertDialog_AppCompat 0x7f090087
+int style AlertDialog_AppCompat_Light 0x7f090088
+int style Animation_AppCompat_Dialog 0x7f090089
+int style Animation_AppCompat_DropDownUp 0x7f09008a
+int style Animation_Design_BottomSheetDialog 0x7f09008b
+int style AppTheme 0x7f09008c
+int style AppTheme_AppBarOverlay 0x7f09008d
+int style AppTheme_NoActionBar 0x7f09008e
+>>>>>>> MichaelAAU-patch-1
 int style AppTheme_PopupOverlay 0x7f09008f
 int style Base_AlertDialog_AppCompat 0x7f090090
 int style Base_AlertDialog_AppCompat_Light 0x7f090091

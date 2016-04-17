@@ -37,6 +37,42 @@ public class UserListFragment extends Fragment {
         updateUI();                                     // after a change of Activities, updates UI
     }
 
+<<<<<<< HEAD
+=======
+    @Override
+    public void onCreateOptionsMenu (Menu menu, MenuInflater inflater) {
+        super.onCreateOptionsMenu(menu, inflater);
+        inflater.inflate(R.menu.fragment_user_list, menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.menu_item_new_list:
+                mNewList = new List();
+                User.get(getActivity()).addUserList(mNewList);
+                FragmentManager manager = getFragmentManager();
+                ListTitlePickerFragment dialog = new ListTitlePickerFragment(); //shows dialog for new list
+                dialog.setTargetFragment(UserListFragment.this, 10);
+                dialog.show(manager, DIALOG_LIST_TITLE);
+                return true;
+            default: return super.onOptionsItemSelected(item);
+        }
+    }
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if (resultCode != Activity.RESULT_OK) {
+            return;
+        }
+        if (requestCode == 10) {
+            String title = (String) data.getSerializableExtra(ListTitlePickerFragment.EXTRA_TITLE);
+            mNewList.setListName(title);
+            updateUI();
+        }
+    }
+
+>>>>>>> MichaelAAU-patch-1
     private void updateUI() {
         User user = User.get(getActivity());            // creates User and its Data if not already there (Singleton)
         ArrayList<List> lists = user.getUserLists();    // gets all Lists of the User

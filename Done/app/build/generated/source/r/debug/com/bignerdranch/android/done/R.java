@@ -2515,12 +2515,21 @@ containing a value of this type.
         public static final int detailed_task_item_7=0x7f04002e;
         public static final int detailed_task_item_8=0x7f04002f;
         public static final int dialog_date=0x7f040030;
+<<<<<<< HEAD
         public static final int fragment_list_task=0x7f040031;
         public static final int fragment_task=0x7f040032;
         public static final int fragment_user_list=0x7f040033;
         public static final int lists_item=0x7f040034;
         public static final int login_activity=0x7f040035;
         public static final int login_layout=0x7f040036;
+=======
+        public static final int dialog_list_title=0x7f040031;
+        public static final int dialog_task_title=0x7f040032;
+        public static final int fragment_list_task=0x7f040033;
+        public static final int fragment_task=0x7f040034;
+        public static final int fragment_user_list=0x7f040035;
+        public static final int lists_item=0x7f040036;
+>>>>>>> MichaelAAU-patch-1
         public static final int nav_header_main=0x7f040037;
         public static final int navigation_layout=0x7f040038;
         public static final int notification_media_action=0x7f040039;
@@ -2586,6 +2595,7 @@ containing a value of this type.
         public static final int prompt_password=0x7f060026;
         public static final int reminder_date_picker_title=0x7f060027;
         public static final int status_bar_notification_info_overflow=0x7f060013;
+<<<<<<< HEAD
         public static final int task_add_note_label=0x7f060028;
         public static final int task_add_photo_label=0x7f060029;
         public static final int task_assigned_to_label=0x7f06002a;
@@ -2599,6 +2609,20 @@ containing a value of this type.
         public static final int title_activity_login=0x7f060032;
         public static final int title_activity_login_=0x7f060033;
         public static final int verified_label=0x7f060034;
+=======
+        public static final int subtitle_format=0x7f060025;
+        public static final int task_add_note_label=0x7f060026;
+        public static final int task_add_photo_label=0x7f060027;
+        public static final int task_assigned_to_label=0x7f060028;
+        public static final int task_completed_label=0x7f060029;
+        public static final int task_due_date_label=0x7f06002a;
+        public static final int task_hidden_from_label=0x7f06002b;
+        public static final int task_name_label=0x7f06002c;
+        public static final int task_reminder_date_label=0x7f06002d;
+        public static final int task_title_picker_title=0x7f06002e;
+        public static final int task_verified_label=0x7f06002f;
+        public static final int verified_label=0x7f060030;
+>>>>>>> MichaelAAU-patch-1
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f090088;

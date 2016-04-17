@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <merger version="3"><dataSet config="main"><source path="D:\AAU things\Semester 2\P2 project\P2-project-AAU\Done\app\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="D:\AAU things\Semester 2\P2 project\P2-project-AAU\Done\app\src\debug\jniLibs"/></dataSet></merger>
+=======
+<merger version="3"><dataSet config="main"><source path="/Users/michalisgratsias/AndroidStudioProjects/Done after +/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/michalisgratsias/AndroidStudioProjects/Done after +/app/src/debug/jniLibs"/></dataSet></merger>
+>>>>>>> MichaelAAU-patch-1

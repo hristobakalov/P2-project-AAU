@@ -315,6 +315,7 @@
     <string name="task_name_hint">Enter a name for the task.</string>
     <string name="task_name_label">Task Name:</string>
     <string name="task_reminder_date_label">Reminder Date:</string>
+    <string name="task_title_picker_title">Name of New Task:</string>
     <string name="task_verified_label">Verified?</string>
     <string name="title_activity_login">Sign in</string>
     <string name="title_activity_login_">Sign in</string>

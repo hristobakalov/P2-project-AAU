@@ -48,6 +48,8 @@ public class Task {
         mReminderDate = new Date();
         mNotes = new ArrayList<>();
         mPhotos = new ArrayList<>();
+        mCompleted = false;
+        mVerified = false;
     }
 
     public Task() {

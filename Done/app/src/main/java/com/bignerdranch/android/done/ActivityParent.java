@@ -28,6 +28,22 @@ public abstract class ActivityParent extends FragmentActivity implements Navigat
         super.onCreate(savedInstanceState);
         Firebase.setAndroidContext(this);
         setContentView(R.layout.navigation_layout);             // view inflated from xml layout
+<<<<<<< HEAD
+=======
+
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar); // attaching layout to the Toolbar object
+        setSupportActionBar(toolbar);
+
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
+                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+        drawer.setDrawerListener(toggle);
+        toggle.syncState();
+
+        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        navigationView.setNavigationItemSelectedListener(this);
+
+>>>>>>> MichaelAAU-patch-1
         FragmentManager fm = getSupportFragmentManager();       // FM responsible for managing Fragments and adding their Views
         Fragment fragment = fm.findFragmentById(R.id.fragment_container);   // using Support Library - give frmt to mgr.
         if (fragment == null) {                                 // Because maybe this ID is saved on rotation by fr.mgr, and is not null
