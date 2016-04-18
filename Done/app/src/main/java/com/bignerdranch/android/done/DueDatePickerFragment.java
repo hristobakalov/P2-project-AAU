@@ -7,6 +7,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.DatePicker;
@@ -20,6 +21,7 @@ import java.util.GregorianCalendar;
  */
 public class DueDatePickerFragment extends DialogFragment {
 
+    private static final String TAG = "DoneActivity";
     private static final String ARG_DATE = "dueDate";
     public static final String EXTRA_DATE = "com.bignerdranch.android.done.dueDate";
     private DatePicker mDatePicker;
@@ -58,7 +60,7 @@ public class DueDatePickerFragment extends DialogFragment {
                      int month = mDatePicker.getMonth();
                      int day = mDatePicker.getDayOfMonth();
                      Date date = new GregorianCalendar(year, month, day).getTime();
-                     sendResult(Activity.RESULT_OK,date);
+                     sendResult(Activity.RESULT_OK, date);
                  }
              })
                 .create();

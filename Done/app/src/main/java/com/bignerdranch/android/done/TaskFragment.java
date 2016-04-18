@@ -9,6 +9,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -86,16 +87,19 @@ public class TaskFragment extends Fragment{
                 Date date = (Date) data.getSerializableExtra(DueDatePickerFragment.EXTRA_DATE);
                 mTask.setDueDate(date);
                 updateDueDate();
+                break;
             }
             case 1: {
                 Date date = (Date) data.getSerializableExtra(ReminderDatePickerFragment.EXTRA_DATE);
                 mTask.setReminderDate(date);
                 updateReminderDate();
+                break;
             }
             case 2: {
                 String note = (String) data.getSerializableExtra(NotesPickerFragment.EXTRA_TITLE);
                 mTask.addNote(note);
                 mNotesText.setText(mNotesText.getText() + "\n" + User.get(getActivity()).getUserName() + ": "+note);
+                break;
             }
 
 
