@@ -33,7 +33,6 @@ public class TaskFragment extends Fragment{
     private static final String DIALOG_DATE1 = "DialogDate1"; // uniquely identifies the Fragment in the FM list
     private static final String DIALOG_DATE2 = "DialogDate2";
     private static final String DIALOG_NOTES = "DialogNotes";
-    private Task[] taskfrags = new Task[9];
     private Task mTask;
     private EditText mTitleField;
     private Button mAssignedTo;
@@ -121,9 +120,8 @@ public class TaskFragment extends Fragment{
     }
 
     private void updateUI() {
-        for (int i = 0; i<taskfrags.length; i++) {taskfrags[i] = mTask;}
         if (mAdapter == null) {
-            mAdapter = new TaskAdapter(taskfrags);
+            mAdapter = new TaskAdapter(9);              // passing 9 fragments to the Recycle-View Adapter
             mTaskRecyclerView.setAdapter(mAdapter);}
         else {mAdapter.notifyDataSetChanged();}
     }
@@ -134,19 +132,15 @@ public class TaskFragment extends Fragment{
             super(itemView);
             mTitleField = (EditText) itemView.findViewById(R.id.task_title);
         }
-
-        public void bindTask(Task task) {
-            mTask = task;
+        public void bindTask() {
             mTitleField.setText(mTask.getTaskName());
             mTitleField.addTextChangedListener(new TextWatcher() {
                 public void onTextChanged(CharSequence c, int start, int before, int count) { // CharSequence is user input
                     mTask.setTaskName(c.toString());
                 }
-
                 public void beforeTextChanged(CharSequence c, int start, int count, int after) {
                     // This space intentionally left blank
                 }
-
                 public void afterTextChanged(Editable c) {
                     // This one too
                 }
@@ -160,9 +154,7 @@ public class TaskFragment extends Fragment{
             super(itemView);
             mAssignedTo = (Button) itemView.findViewById(R.id.assigned_to);
         }
-
-        public void bindTask(Task task) {
-            mTask = task;
+        public void bindTask() {
             mAssignedTo.setText("None");
             mAssignedTo.setEnabled(false);
         }
@@ -174,9 +166,7 @@ public class TaskFragment extends Fragment{
             super(itemView);
             mHiddenFrom = (Button) itemView.findViewById(R.id.hidden_from);
         }
-
-        public void bindTask(Task task) {
-            mTask = task;
+        public void bindTask() {
             mHiddenFrom.setText("None");
             mHiddenFrom.setEnabled(false);
         }
@@ -188,9 +178,7 @@ public class TaskFragment extends Fragment{
             super(itemView);
             mDueDateButton = (Button) itemView.findViewById(R.id.due_date);
         }
-
-        public void bindTask(Task task) {
-            mTask = task;
+        public void bindTask() {
             updateDueDate();
             mDueDateButton.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -210,9 +198,7 @@ public class TaskFragment extends Fragment{
             super(itemView);
             mReminderDateButton = (Button) itemView.findViewById(R.id.reminder_date);
         }
-
-        public void bindTask(Task task) {
-            mTask = task;
+        public void bindTask() {
             updateReminderDate();
             mReminderDateButton.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -234,9 +220,7 @@ public class TaskFragment extends Fragment{
             mNotesText = (TextView) itemView.findViewById(R.id.notes);
             for (String n: mTask.getNotes()) mNotesText.setText(mNotesText.getText()+"\n"+ User.get(getActivity()).getUserName() + ": "+n);
         }
-
-        public void bindTask(Task task) {
-            mTask = task;
+        public void bindTask() {
             mAddNote.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -255,9 +239,7 @@ public class TaskFragment extends Fragment{
             super(itemView);
             mAddPhoto = (Button) itemView.findViewById(R.id.add_photo);
         }
-
-        public void bindTask(Task task) {
-            mTask = task;
+        public void bindTask() {
             mAddPhoto.setText("None");
             mAddPhoto.setEnabled(false);
         }
@@ -269,9 +251,7 @@ public class TaskFragment extends Fragment{
             super(itemView);
             mCompletedCheckBox = (CheckBox) itemView.findViewById(R.id.task_completed);
         }
-
-        public void bindTask(Task task) {
-            mTask = task;
+        public void bindTask() {
             mCompletedCheckBox.setChecked(mTask.isCompleted());
             mCompletedCheckBox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
                 public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
@@ -287,9 +267,7 @@ public class TaskFragment extends Fragment{
             super(itemView);
             mVerifiedCheckBox = (CheckBox) itemView.findViewById(R.id.task_verified);
         }
-
-        public void bindTask(Task task) {
-            mTask = task;
+        public void bindTask() {
             mVerifiedCheckBox.setChecked(mTask.isCompleted());
             mVerifiedCheckBox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
                 public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
@@ -301,10 +279,10 @@ public class TaskFragment extends Fragment{
 
     private class TaskAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {  // adapter class
         // creates needed viewholders, binds them to the data
-        private Task[] mTasks;
+        private int mAdapterLength;
 
-        public TaskAdapter(Task[] taskfrags) {        // constructor
-            mTasks = taskfrags;
+        public TaskAdapter(int length) {        // constructor
+            mAdapterLength = length;
         }
 
         @Override
@@ -316,39 +294,38 @@ public class TaskFragment extends Fragment{
         public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {              // needs new view
             LayoutInflater layoutInflater = LayoutInflater.from(getActivity());
             switch (viewType) {
-                case 0: {View view = layoutInflater.inflate(R.layout.detailed_task_item_0, parent, false); return new TaskHolder0(view);}
-                case 1: {View view = layoutInflater.inflate(R.layout.detailed_task_item_1, parent, false); return new TaskHolder1(view);}
-                case 2: {View view = layoutInflater.inflate(R.layout.detailed_task_item_2, parent, false); return new TaskHolder2(view);}
-                case 3: {View view = layoutInflater.inflate(R.layout.detailed_task_item_3, parent, false); return new TaskHolder3(view);}
-                case 4: {View view = layoutInflater.inflate(R.layout.detailed_task_item_4, parent, false); return new TaskHolder4(view);}
-                case 5: {View view = layoutInflater.inflate(R.layout.detailed_task_item_5, parent, false); return new TaskHolder5(view);}
-                case 6: {View view = layoutInflater.inflate(R.layout.detailed_task_item_6, parent, false); return new TaskHolder6(view);}
-                case 7: {View view = layoutInflater.inflate(R.layout.detailed_task_item_7, parent, false); return new TaskHolder7(view);}
-                case 8: {View view = layoutInflater.inflate(R.layout.detailed_task_item_8, parent, false); return new TaskHolder8(view);}
-                default: return new TaskHolder0(layoutInflater.inflate(R.layout.detailed_task_item_0, parent, false));
+                case 0: {View view = layoutInflater.inflate(R.layout.fragment_task_title, parent, false); return new TaskHolder0(view);}
+                case 1: {View view = layoutInflater.inflate(R.layout.fragment_task_assignees, parent, false); return new TaskHolder1(view);}
+                case 2: {View view = layoutInflater.inflate(R.layout.fragment_task_viewers, parent, false); return new TaskHolder2(view);}
+                case 3: {View view = layoutInflater.inflate(R.layout.fragment_task_due_date, parent, false); return new TaskHolder3(view);}
+                case 4: {View view = layoutInflater.inflate(R.layout.fragment_task_reminder_date, parent, false); return new TaskHolder4(view);}
+                case 5: {View view = layoutInflater.inflate(R.layout.fragment_task_notes, parent, false); return new TaskHolder5(view);}
+                case 6: {View view = layoutInflater.inflate(R.layout.fragment_task_photos, parent, false); return new TaskHolder6(view);}
+                case 7: {View view = layoutInflater.inflate(R.layout.fragment_task_completion, parent, false); return new TaskHolder7(view);}
+                case 8: {View view = layoutInflater.inflate(R.layout.fragment_task_verification, parent, false); return new TaskHolder8(view);}
+                default: return new TaskHolder0(layoutInflater.inflate(R.layout.fragment_task_title, parent, false));
             }
             // creates view and wraps it in a viewholder
         }
 
         @Override
         public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) { // binds viewholder's view to a model object
-            Task task = mTasks[position];
             switch (getItemViewType(position)){
-                case 0: TaskHolder0 h0 = (TaskHolder0)holder; h0.bindTask(task); break;
-                case 1: TaskHolder1 h1 = (TaskHolder1)holder; h1.bindTask(task); break;
-                case 2: TaskHolder2 h2 = (TaskHolder2)holder; h2.bindTask(task); break;
-                case 3: TaskHolder3 h3 = (TaskHolder3)holder; h3.bindTask(task); break;
-                case 4: TaskHolder4 h4 = (TaskHolder4)holder; h4.bindTask(task); break;
-                case 5: TaskHolder5 h5 = (TaskHolder5)holder; h5.bindTask(task); break;
-                case 6: TaskHolder6 h6 = (TaskHolder6)holder; h6.bindTask(task); break;
-                case 7: TaskHolder7 h7 = (TaskHolder7)holder; h7.bindTask(task); break;
-                case 8: TaskHolder8 h8 = (TaskHolder8)holder; h8.bindTask(task); break;
+                case 0: TaskHolder0 h0 = (TaskHolder0)holder; h0.bindTask(); break;
+                case 1: TaskHolder1 h1 = (TaskHolder1)holder; h1.bindTask(); break;
+                case 2: TaskHolder2 h2 = (TaskHolder2)holder; h2.bindTask(); break;
+                case 3: TaskHolder3 h3 = (TaskHolder3)holder; h3.bindTask(); break;
+                case 4: TaskHolder4 h4 = (TaskHolder4)holder; h4.bindTask(); break;
+                case 5: TaskHolder5 h5 = (TaskHolder5)holder; h5.bindTask(); break;
+                case 6: TaskHolder6 h6 = (TaskHolder6)holder; h6.bindTask(); break;
+                case 7: TaskHolder7 h7 = (TaskHolder7)holder; h7.bindTask(); break;
+                case 8: TaskHolder8 h8 = (TaskHolder8)holder; h8.bindTask(); break;
             }
         }
 
         @Override
         public int getItemCount() {
-            return mTasks.length;
+            return mAdapterLength;
         }
     }
 }
