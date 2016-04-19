@@ -291,6 +291,7 @@
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
     <string name="completed_label">Completion:</string>
     <string name="due_date_picker_title">Task Due Date:</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hide_subtitle">Hide Subtitle</string>
     <string name="list_name_label">List Name:</string>
     <string name="list_title_picker_title">Name of New List:</string>

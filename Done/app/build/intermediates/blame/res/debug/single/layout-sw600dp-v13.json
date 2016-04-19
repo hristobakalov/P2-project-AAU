@@ -1,26 +1,30 @@
 [
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Done after +/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Done after +/app/build/intermediates/exploded-aar/com.android.support/design/23.2.1/res/layout-sw600dp-v13/design_layout_snackbar.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Done Test/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Done Test/app/build/intermediates/exploded-aar/com.android.support/design/23.2.1/res/layout-sw600dp-v13/design_layout_snackbar.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/P2-project-AAU/Done/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
-        "source": "/Users/michalisgratsias/P2-project-AAU/Done/app/build/intermediates/exploded-aar/com.android.support/design/23.2.1/res/layout-sw600dp-v13/design_layout_snackbar.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Done+/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Done+/app/build/intermediates/exploded-aar/com.android.support/design/23.2.1/res/layout-sw600dp-v13/design_layout_snackbar.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/DoneLast/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/DoneLast/app/build/intermediates/exploded-aar/com.android.support/design/23.2.1/res/layout-sw600dp-v13/design_layout_snackbar.xml"
+        "merged": "D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
+        "source": "D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Done/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Done/app/build/intermediates/exploded-aar/com.android.support/design/23.2.1/res/layout-sw600dp-v13/design_layout_snackbar.xml"
+        "merged": "D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
+        "source": "D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
     }
 ]

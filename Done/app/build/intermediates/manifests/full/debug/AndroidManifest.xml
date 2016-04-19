@@ -8,7 +8,10 @@
         android:minSdkVersion="16"
         android:targetSdkVersion="23" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
+        android:name="com.bignerdranch.android.done.Done"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="Done"
@@ -28,14 +31,13 @@
         <activity
             android:name="com.bignerdranch.android.done.ListActivity"
             android:label="Done"
-            android:theme="@style/AppTheme.NoActionBar" >
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="com.bignerdranch.android.done.TaskActivity"
             android:label="Done"
             android:parentActivityName="com.bignerdranch.android.done.UserActivity"
-            android:theme="@style/AppTheme.NoActionBar" >
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.bignerdranch.android.done.LoginActivity" />
     </application>
 
 </manifest>

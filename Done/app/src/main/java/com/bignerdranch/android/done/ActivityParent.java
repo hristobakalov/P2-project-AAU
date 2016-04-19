@@ -89,6 +89,12 @@ public abstract class ActivityParent extends AppCompatActivity implements Naviga
         } else if (id == R.id.nav_sign_out) {
             // Sign out
         }
+        else if (id == R.id.nav_login) {
+            // Login
+            Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
+            startActivity(intent);
+            finish();
+        }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
