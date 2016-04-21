@@ -316,6 +316,7 @@
     <string name="task_reminder_date_label">Reminder Date:</string>
     <string name="task_title_picker_title">Name of New Task:</string>
     <string name="task_verified_label">Verified?</string>
+    <string name="title_activity_register">RegisterActivity</string>
     <string name="verified_label">Verification:</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>

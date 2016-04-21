@@ -34,11 +34,11 @@ public class LoginActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-        mEditTextName = (EditText) findViewById(R.id.editTextName);
-        mEditTextEmail = (EditText) findViewById(R.id.editTextEmail);
-        mEditTextPassword = (EditText) findViewById(R.id.editTextPassword);
-        mEditTextRepeatPassword = (EditText) findViewById(R.id.editTextRepeatPassword);
-        mButtonRegister = (Button) findViewById(R.id.buttonRegister);
+        //mEditTextName = (EditText) findViewById(R.id.editTextName);
+       // mEditTextEmail = (EditText) findViewById(R.id.editTextEmail);
+       // mEditTextPassword = (EditText) findViewById(R.id.editTextPassword);
+       // mEditTextRepeatPassword = (EditText) findViewById(R.id.editTextRepeatPassword);
+       // mButtonRegister = (Button) findViewById(R.id.buttonRegister);
 
         mRef = new Firebase("https://doneaau.firebaseio.com/");
 
@@ -55,22 +55,24 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
         //final UserTest test = new UserTest("Just Test", 1995);
-        final User userOne = User.get(this);
+        /*final User userOne = User.get(this);
         final UserTest testTwo = new UserTest();
         mButtonRegister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               // mRef.child("users").setValue(userOne.getEmail());
+                // mRef.child("users").setValue(userOne.getEmail());
                 //mRef.child("users").child(userOne.getEmail()).setValue(userOne.getUserName());
-               // mRef.child("users").child("mEditTextEmail").setValue(mEditTextName.getText());
-               // mRef.child("users").child("mEditTextEmail").setValue(mEditTextPassword.getText());
-               // mRef.child("users").child("mEditTextEmail").setValue(mEditTextRepeatPassword.getText());
+                // mRef.child("users").child("mEditTextEmail").setValue(mEditTextName.getText());
+                // mRef.child("users").child("mEditTextEmail").setValue(mEditTextPassword.getText());
+                // mRef.child("users").child("mEditTextEmail").setValue(mEditTextRepeatPassword.getText());
                 //mRef.child("users").push().setValue(testTwo); //WORKSSS!!!
                 Firebase newRef = new Firebase("https://doneaau.firebaseio.com/users");
-               mRef.child("users").child(testTwo.getEmail()).setValue(testTwo);
+                mRef.child("users").child(testTwo.getEmail()).setValue(testTwo);
                 //mRef.child("users").child("johnDD@cvb.com").setValue(testTwo);
                 //mRef.child("users").child(testTwo.getEmail()).setValue(testTwo);
             }
         });
+*/
+
     }
 }

@@ -38,6 +38,10 @@
             android:parentActivityName="com.bignerdranch.android.done.UserActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name="com.bignerdranch.android.done.LoginActivity" />
+        <activity
+            android:name="com.bignerdranch.android.done.RegisterActivity"
+            android:label="@string/title_activity_register"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>
