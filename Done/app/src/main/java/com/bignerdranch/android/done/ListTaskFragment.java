@@ -14,6 +14,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.TextView;
 
@@ -108,19 +109,22 @@ public class ListTaskFragment extends Fragment{
         else {mAdapter.notifyDataSetChanged();}
     }
 
-    private class TaskHolder extends RecyclerView.ViewHolder implements View.OnClickListener { // viewholder class
+    private class TaskHolder extends RecyclerView.ViewHolder { // viewholder class
         // holds reference to the entire view passed to super(view)
         private TextView mTitleTextView;
         private TextView mDateTextView;
         private CheckBox mCompletedCheckBox;
+        private Button mEditButton;
+        private Button mDeleteButton;
         private Task mTask;
 
         public TaskHolder(View itemView) {     // constructor - stashes the views
             super(itemView);
-            itemView.setOnClickListener(this);
             mTitleTextView = (TextView) itemView.findViewById(R.id.list_item_task_title_text_view);
             mDateTextView = (TextView) itemView.findViewById(R.id.list_item_task_created_date_text_view);
             mCompletedCheckBox = (CheckBox) itemView.findViewById(R.id.list_item_task_completed_check_box);
+            mEditButton = (Button) itemView.findViewById(R.id.edit_task_button);
+            mDeleteButton = (Button) itemView.findViewById(R.id.delete_task_button);
         }
 
         public void bindTask(Task task) {
@@ -129,13 +133,15 @@ public class ListTaskFragment extends Fragment{
             SimpleDateFormat format = new SimpleDateFormat("EEE MMM dd, yyyy hh:mm a");
             mDateTextView.setText("Date Created: " + format.format(mTask.getCreatedDate()));
             mCompletedCheckBox.setChecked(mTask.isCompleted());
+            mEditButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = TaskActivity.newIntent(getActivity(), mTask.getTaskId(), mList.getListId());
+                    startActivity(intent);                      // passes taskId, listID
+                }
+            });
         }
 
-        @Override
-        public void onClick(View v) {
-            Intent intent = TaskActivity.newIntent(getActivity(), mTask.getTaskId(), mList.getListId());
-            startActivity(intent);                      // passes taskId, listID
-        }
     }
 
     private class TaskAdapter extends RecyclerView.Adapter<TaskHolder> {  // adapter class

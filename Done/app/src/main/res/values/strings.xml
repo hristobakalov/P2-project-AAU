@@ -7,6 +7,7 @@
     <string name="name_hint">Enter a name.</string>
     <string name="note_hint">Enter a note.</string>
     <string name="task_name_label">Task Name:</string>
+    <string name="task_label">Tasks:</string>
     <string name="notes_label">Note:</string>
     <string name="task_assigned_to_label">Assigned To:</string>
     <string name="task_hidden_from_label">Hidden From:</string>

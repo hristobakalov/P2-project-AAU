@@ -14,6 +14,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.Date;
@@ -93,30 +94,39 @@ public class UserListFragment extends Fragment {
         else {mAdapter.notifyDataSetChanged();}         // if existing, updates data changes
     }
 
-    private class ListHolder extends RecyclerView.ViewHolder implements View.OnClickListener { // viewholder class
+    private class ListHolder extends RecyclerView.ViewHolder { // viewholder class
         // holds reference to the entire view passed to super(view)
         private TextView mTitleTextView;
-        private TextView mCounterTextView;
+        private TextView mTaskTextView;
+        private Button mEditButton;
+        private Button mShareButton;
+        private Button mDeleteButton;
+        private Button mTaskButton;
         private List mList;
 
         public ListHolder(View itemView) {     // constructor - stashes the views
             super(itemView);
-            itemView.setOnClickListener(this);
             mTitleTextView = (TextView) itemView.findViewById(R.id.list_item_list_title_text_view);
-            mCounterTextView = (TextView) itemView.findViewById(R.id.list_item_list_counter_text_view);
+            mTaskTextView = (TextView) itemView.findViewById(R.id.list_item_task_text_view);
+            mEditButton = (Button) itemView.findViewById(R.id.edit_list_button);
+            mShareButton = (Button) itemView.findViewById(R.id.share_button);
+            mDeleteButton = (Button) itemView.findViewById(R.id.delete_list_button);
+            mTaskButton = (Button) itemView.findViewById(R.id.task_button);
         }
 
         public void bindList(List list) {                   // list data entered in fragment viewholder
             mList = list;
             mTitleTextView.setText(mList.getListName());
-            mCounterTextView.setText("Tasks: " + mList.getListTasks().size());
+            mTaskButton.setText(""+mList.getListTasks().size());
+            mTaskButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = ListActivity.newIntent(getActivity(), mList.getListId()); //passes listId
+                    startActivity(intent);
+                }
+            });
         }
 
-        @Override
-        public void onClick(View v) {
-            Intent intent = ListActivity.newIntent(getActivity(), mList.getListId()); //passes listId
-            startActivity(intent);
-        }
     }
 
     private class ListAdapter extends RecyclerView.Adapter<ListHolder> {  // adapter class
