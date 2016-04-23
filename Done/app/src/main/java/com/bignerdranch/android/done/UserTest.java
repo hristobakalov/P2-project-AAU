@@ -30,26 +30,20 @@ public class UserTest {
 
 package com.bignerdranch.android.done;
 
-import android.content.Context;
-import android.media.Image;
-import android.util.Log;
-
-import java.util.ArrayList;
-import java.util.Date;
 import java.util.UUID;
 
 public class UserTest {
 
     /*private static final String TAG = "DoneActivity";
-    private String mUserName;
-    private String mPassword;
-    private String mEmail;
+    private String userName;
+    private String password;
+    private String email;
     private static UserTest sUser;
 
     public UserTest() {
-        mUserName = "John";                     // Test userName;
-        mPassword = "dfghdfgh";                 // Test password;
-        mEmail = "johnDD@cvb.com";
+        userName = "John";                     // Test userName;
+        password = "dfghdfgh";                 // Test password;
+        email = "johnDD@cvb.com";
     }
 
     public static UserTest get() {                     // creates list as a Singleton= only 1 User object possible
@@ -62,88 +56,89 @@ public class UserTest {
 
 
     public String getUserName() {
-        return mUserName;
+        return userName;
     }
 
     public void setUserName(String userName) {
-        mUserName = userName;
+        userName = userName;
     }
 
     public String getPassword() {
-        return mPassword;
+        return password;
     }
 
     public void setPassword(String password) {
-        mPassword = password;
+        password = password;
     }
 
     public String getEmail() {
-        return mEmail;
+        return email;
     }
 
     public void setEmail(String email) {
-        mEmail = email;
+        email = email;
     }
     */
-    private static final String TAG = "DoneActivity";
-    private String mUserId;
-    private String mUserName;
-    private String mPassword;
-    private String mEmail;
+    //IMPORTANT!!! the name of the fields should be the same as the one in the database!
+    private String userId;
+    private String userName;
+    private String password;
+    private String email;
     //private Image mPhoto;
-    private ArrayList<List> mUserLists;
     private static UserTest sUser;
 
-
-    public UserTest() {
+    public UserTest(){
+        // empty default constructor, necessary for Firebase
+    }
+    public UserTest(String name) {
         UUID id = (UUID.randomUUID());
-        mUserId = id.toString();
+        userId = id.toString();
         //mUserLists = new ArrayList<List>();
-        mUserName = "John";                     // Test userName;
-        mPassword = "dfghdfgh";                 // Test password;
-        mEmail = "johnDD@cvb.com";              // Test email;
+        userName = "John";                     // Test userName;
+        password = "dfghdfgh";                 // Test password;
+        email = "johnDD@cvb.com";              // Test email;
 
 
     }
 
     public static UserTest get() {                     // creates list as a Singleton= only 1 User object possible
         if (sUser == null) {
-            sUser = new UserTest();    // AppContext gives longer lifetime than Activities
+            sUser = new UserTest("test");    // AppContext gives longer lifetime than Activities
         }
         return sUser;
     }
 
-    public ArrayList<List> getUserLists() {                         // get all User Lists
-        return mUserLists;
-    }
 
 
     public String getUserId() {
-        return mUserId;
+        return userId;
     }
 
+    public void setUserId(String userId){
+        this.userId = userId;}
+
     public String getUserName() {
-        return mUserName;
+        return userName;
     }
 
     public void setUserName(String userName) {
-        mUserName = userName;
+        this.userName = userName;
     }
 
     public String getPassword() {
-        return mPassword;
+        return password;
     }
 
     public void setPassword(String password) {
-        mPassword = password;
+        this.password = password;
     }
 
     public String getEmail() {
-        return mEmail;
+        return email;
     }
 
     public void setEmail(String email) {
-        mEmail = email;
+        this.email = email;
     }
 
 
