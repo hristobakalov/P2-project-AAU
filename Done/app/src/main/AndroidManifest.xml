@@ -15,13 +15,7 @@
         <activity
             android:name=".UserActivity"
             android:label="Done"
-            android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
             android:name=".ListActivity"
             android:label="Done"
@@ -31,11 +25,24 @@
             android:label="Done"
             android:parentActivityName=".UserActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".LoginActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="LoginActivity"
+            android:parentActivityName=".LoginActivity"
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".RegisterActivity"
             android:label="@string/title_activity_register"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:parentActivityName=".LoginActivity" />
+        <activity
+            android:name=".StartingPageActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

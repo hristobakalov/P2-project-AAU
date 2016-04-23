@@ -21,13 +21,7 @@
         <activity
             android:name="com.bignerdranch.android.done.UserActivity"
             android:label="Done"
-            android:theme="@style/AppTheme.NoActionBar" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="com.bignerdranch.android.done.ListActivity"
             android:label="Done"
@@ -37,11 +31,24 @@
             android:label="Done"
             android:parentActivityName="com.bignerdranch.android.done.UserActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name="com.bignerdranch.android.done.LoginActivity" />
+        <activity
+            android:name="com.bignerdranch.android.done.LoginActivity"
+            android:label="LoginActivity"
+            android:parentActivityName="com.bignerdranch.android.done.LoginActivity"
+            android:theme="@style/AppTheme" />
         <activity
             android:name="com.bignerdranch.android.done.RegisterActivity"
             android:label="@string/title_activity_register"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:parentActivityName="com.bignerdranch.android.done.LoginActivity" />
+        <activity
+            android:name="com.bignerdranch.android.done.StartingPageActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

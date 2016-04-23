@@ -1,386 +1,430 @@
 [
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_material_dark.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_background_cache_hint_selector_material_dark.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_dark.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_background_cache_hint_selector_material_dark.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_material_light.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_material_dark.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_disable_only_material_light.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\switch_thumb_material_light.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_material_dark.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_secondary_text_material_dark.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_search_url_text.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_search_url_text.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0-alpha1\\res\\color\\abc_tint_edittext.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_secondary_text_material_dark.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_search_url_text.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_material_light.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_material_dark.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_search_url_text.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_secondary_text_material_light.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_material_light.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_light.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_background_cache_hint_selector_material_light.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_background_cache_hint_selector_material_light.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+        "merged": "D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_background_cache_hint_selector_material_light.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\switch_thumb_material_dark.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_search_url_text.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_light.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_background_cache_hint_selector_material_light.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0-alpha1\\res\\color\\abc_tint_default.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_dark.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_background_cache_hint_selector_material_dark.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_search_url_text.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\switch_thumb_material_dark.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\switch_thumb_material_light.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_dark.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_background_cache_hint_selector_material_dark.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_secondary_text_material_light.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_material_dark.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/switch_thumb_material_light.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_search_url_text.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\switch_thumb_material_light.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_material_dark.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_material_light.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_secondary_text_material_light.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/abc_search_url_text.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\switch_thumb_material_light.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_search_url_text.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_secondary_text_material_light.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_dark.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_background_cache_hint_selector_material_dark.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_material_light.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_search_url_text.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_secondary_text_material_light.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_material_light.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_secondary_text_material_dark.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\switch_thumb_material_light.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0-alpha1\\res\\color\\abc_tint_switch_thumb.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_secondary_text_material_dark.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_background_cache_hint_selector_material_dark.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\switch_thumb_material_dark.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\switch_thumb_material_dark.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_light.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_background_cache_hint_selector_material_light.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_background_cache_hint_selector_material_light.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_dark.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_background_cache_hint_selector_material_dark.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_disable_only_material_light.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0-alpha1\\res\\color\\abc_tint_btn_checkable.xml"
+        "merged": "D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\switch_thumb_material_light.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_disable_only_material_light.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/abc_primary_text_material_dark.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_material_dark.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\switch_thumb_material_dark.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_background_cache_hint_selector_material_light.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_dark.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_background_cache_hint_selector_material_dark.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_material_dark.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/abc_primary_text_disable_only_material_dark.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_secondary_text_material_light.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_search_url_text.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_material_light.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/app/build/intermediates/res/merged/debug/color/abc_background_cache_hint_selector_material_light.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/abc_background_cache_hint_selector_material_light.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0-alpha1\\res\\color\\abc_tint_switch_track.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\switch_thumb_material_dark.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_secondary_text_material_dark.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_light.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_background_cache_hint_selector_material_light.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_material_dark.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_secondary_text_material_light.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\switch_thumb_material_dark.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0-alpha1\\res\\color\\abc_tint_switch_track.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\switch_thumb_material_light.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_material_dark.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_material_light.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_background_cache_hint_selector_material_dark.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_secondary_text_material_light.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\switch_thumb_material_light.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_material_light.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_background_cache_hint_selector_material_light.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_secondary_text_material_dark.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_disable_only_material_light.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\switch_thumb_material_dark.xml"
+        "merged": "D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_light.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_background_cache_hint_selector_material_light.xml"
+        "merged": "D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_material_light.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_secondary_text_material_light.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_material_light.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_material_dark.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_material_light.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_secondary_text_material_light.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_background_cache_hint_selector_material_light.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/abc_primary_text_material_light.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_background_cache_hint_selector_material_dark.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_secondary_text_material_dark.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_secondary_text_material_dark.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_light.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_background_cache_hint_selector_material_light.xml"
+        "merged": "D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_material_dark.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\switch_thumb_material_light.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_disable_only_material_light.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\switch_thumb_material_dark.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_material_light.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_background_cache_hint_selector_material_dark.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+        "merged": "D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_secondary_text_material_dark.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_material_light.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_secondary_text_material_dark.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+        "merged": "D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_disable_only_material_light.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_search_url_text.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\switch_thumb_material_dark.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/switch_thumb_material_dark.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_material_dark.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_secondary_text_material_light.xml"
+        "merged": "D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_search_url_text.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0-alpha1\\res\\color\\abc_tint_seek_thumb.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\switch_thumb_material_dark.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/abc_primary_text_disable_only_material_light.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\switch_thumb_material_dark.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_secondary_text_material_dark.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0-alpha1\\res\\color\\abc_btn_colored_borderless_text_material.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\switch_thumb_material_light.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\switch_thumb_material_dark.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\switch_thumb_material_light.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/abc_secondary_text_material_light.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_background_cache_hint_selector_material_dark.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\switch_thumb_material_light.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_secondary_text_material_light.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0-alpha1\\res\\color\\abc_tint_spinner.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/abc_secondary_text_material_dark.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_secondary_text_material_light.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_search_url_text.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_material_light.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_light.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_background_cache_hint_selector_material_light.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_background_cache_hint_selector_material_light.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_secondary_text_material_light.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_search_url_text.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0-alpha1\\res\\color\\abc_tint_switch_thumb.xml"
+        "merged": "D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\switch_thumb_material_dark.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\switch_thumb_material_light.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\switch_thumb_material_dark.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_material_dark.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_disable_only_material_light.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_disable_only_material_light.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_dark.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_background_cache_hint_selector_material_dark.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0-alpha1\\res\\color\\abc_tint_seek_thumb.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0-alpha1\\res\\color\\abc_tint_spinner.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_secondary_text_material_dark.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_material_light.xml"
+        "merged": "D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_secondary_text_material_light.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\switch_thumb_material_light.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_secondary_text_material_dark.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_secondary_text_material_dark.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_search_url_text.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0-alpha1\\res\\color\\abc_tint_btn_checkable.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_material_dark.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_background_cache_hint_selector_material_dark.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0-alpha1\\res\\color\\abc_tint_default.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_secondary_text_material_dark.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_search_url_text.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/app/build/intermediates/res/merged/debug/color/abc_background_cache_hint_selector_material_dark.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/abc_background_cache_hint_selector_material_dark.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0-alpha1\\res\\color\\abc_btn_colored_borderless_text_material.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\switch_thumb_material_light.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_background_cache_hint_selector_material_dark.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Hristo/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_secondary_text_material_dark.xml"
+        "merged": "D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0-alpha1\\res\\color\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color\\switch_thumb_material_dark.xml"
     }
 ]

@@ -30,17 +30,17 @@ public class UserTest {
 
 package com.bignerdranch.android.done;
 
-        import android.content.Context;
-        import android.media.Image;
-        import android.util.Log;
+import android.content.Context;
+import android.media.Image;
+import android.util.Log;
 
-        import java.util.ArrayList;
-        import java.util.Date;
-        import java.util.UUID;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.UUID;
 
 public class UserTest {
 
-    private static final String TAG = "DoneActivity";
+    /*private static final String TAG = "DoneActivity";
     private String mUserName;
     private String mPassword;
     private String mEmail;
@@ -84,5 +84,68 @@ public class UserTest {
     public void setEmail(String email) {
         mEmail = email;
     }
+    */
+    private static final String TAG = "DoneActivity";
+    private String mUserId;
+    private String mUserName;
+    private String mPassword;
+    private String mEmail;
+    //private Image mPhoto;
+    private ArrayList<List> mUserLists;
+    private static UserTest sUser;
+
+
+    public UserTest() {
+        UUID id = (UUID.randomUUID());
+        mUserId = id.toString();
+        //mUserLists = new ArrayList<List>();
+        mUserName = "John";                     // Test userName;
+        mPassword = "dfghdfgh";                 // Test password;
+        mEmail = "johnDD@cvb.com";              // Test email;
+
+
+    }
+
+    public static UserTest get() {                     // creates list as a Singleton= only 1 User object possible
+        if (sUser == null) {
+            sUser = new UserTest();    // AppContext gives longer lifetime than Activities
+        }
+        return sUser;
+    }
+
+    public ArrayList<List> getUserLists() {                         // get all User Lists
+        return mUserLists;
+    }
+
+
+    public String getUserId() {
+        return mUserId;
+    }
+
+    public String getUserName() {
+        return mUserName;
+    }
+
+    public void setUserName(String userName) {
+        mUserName = userName;
+    }
+
+    public String getPassword() {
+        return mPassword;
+    }
+
+    public void setPassword(String password) {
+        mPassword = password;
+    }
+
+    public String getEmail() {
+        return mEmail;
+    }
+
+    public void setEmail(String email) {
+        mEmail = email;
+    }
+
+
 }
 
