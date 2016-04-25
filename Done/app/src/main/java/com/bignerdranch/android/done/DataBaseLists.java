@@ -11,10 +11,9 @@ public class DataBaseLists {
     private String CreatorId;
     private String mListName;
     private ArrayList<String> mListUsers;
-    private ArrayList<Task> mListTasks;
+    private ArrayList<DataBaseTasks> mListTasks;
 
     DataBaseLists () {
-
     }
 
     public String getListId() {
@@ -53,11 +52,11 @@ public class DataBaseLists {
         mListUsers.remove(id);
     }
 
-    public void addListTask(Task task) {
+    public void addListTask(DataBaseTasks task) {
         mListTasks.add(task);
     }
 
-    public void removeListTask(Task task) {
+    public void removeListTask(DataBaseTasks task) {
         mListTasks.remove(task);
     }
 }

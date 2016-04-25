@@ -8,12 +8,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
-
 import com.firebase.client.ChildEventListener;
 import com.firebase.client.DataSnapshot;
 import com.firebase.client.Firebase;
 import com.firebase.client.FirebaseError;
-
 import java.util.*;
 
 public class LoginActivity extends AppCompatActivity {
@@ -23,7 +21,6 @@ public class LoginActivity extends AppCompatActivity {
     EditText mEditTextPassword;
     Button mButtonLogin;
     ArrayList<DataBaseUsers> userList = new ArrayList<DataBaseUsers>();
-    ;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

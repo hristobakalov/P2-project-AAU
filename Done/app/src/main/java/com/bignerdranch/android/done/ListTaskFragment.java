@@ -18,6 +18,8 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.TextView;
 
+import com.firebase.client.Firebase;
+
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.UUID;
@@ -30,8 +32,10 @@ public class ListTaskFragment extends Fragment{
     private static final String TAG = "DoneActivity";
     private static final String DIALOG_TASK_TITLE = "DialogTaskTitle";
     private static final String ARG_LIST_ID = "list_id";
+    SimpleDateFormat format = new SimpleDateFormat("EEE MMM dd, yyyy hh:mm a");
     private List mList;
     private Task mNewTask;
+    private DataBaseTasks taskNew;
 
     public static ListTaskFragment newInstance(UUID listId) {   // we use a method to create Fragment instead of using Constructor
         Bundle args = new Bundle();                         // creates Bundle for arguments
@@ -97,6 +101,14 @@ public class ListTaskFragment extends Fragment{
         if (requestCode == 11) {
             String title = (String) data.getSerializableExtra(TaskTitlePickerFragment.EXTRA_TITLE);
             mNewTask.setTaskName(title);
+
+            taskNew = new DataBaseTasks();                      // saving new task data to database
+            taskNew.setTaskId(mNewTask.getTaskId().toString());
+            taskNew.setListId(mNewTask.getListId().toString());
+            taskNew.setTaskName(mNewTask.getTaskName());
+            taskNew.setCreatedDate(format.format(mNewTask.getCreatedDate()));
+            new Firebase("https://doneaau.firebaseio.com/lists/"+taskNew.getListId()+"/tasks/").child(taskNew.getTaskId()).setValue(taskNew);
+
             updateUI();
         }
     }
@@ -130,7 +142,6 @@ public class ListTaskFragment extends Fragment{
         public void bindTask(Task task) {
             mTask = task;
             mTitleTextView.setText(mTask.getTaskName());
-            SimpleDateFormat format = new SimpleDateFormat("EEE MMM dd, yyyy hh:mm a");
             mDateTextView.setText("Date Created: " + format.format(mTask.getCreatedDate()));
             mCompletedCheckBox.setChecked(mTask.isCompleted());
             mEditButton.setOnClickListener(new View.OnClickListener() {

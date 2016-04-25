@@ -54,7 +54,7 @@ public class UserListFragment extends Fragment {
     @Override
     public void onResume() {
         super.onResume();
-        updateUI();                                     // after a change of Activities, updates UI
+        updateUI();                           // after the Picker Fragment pop-up is gone, updates UI
     }
 
     @Override
@@ -98,8 +98,7 @@ public class UserListFragment extends Fragment {
     }
 
     private void updateUI() {
-        User user = User.get();            // creates User and its Data if not already there (Singleton)
-        ArrayList<List> lists = user.getUserLists();    // gets all Lists of the User
+        ArrayList<List> lists = User.get().getUserLists();    // gets all Lists of the User
         if (mAdapter == null) {
             mAdapter = new ListAdapter(lists);          // gives lists to adapter
             mListRecyclerView.setAdapter(mAdapter);}    // connects to recycler view
