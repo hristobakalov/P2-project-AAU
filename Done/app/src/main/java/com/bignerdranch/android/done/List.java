@@ -11,13 +11,14 @@ import java.util.UUID;
 public class List {
 
     private UUID mListId;
-    private UUID mUserId;
+    private String mCreatorId;
     private String mListName;
     private ArrayList<String> mListUsers;
     private ArrayList<Task> mListTasks;
 
     public List(String userId) {
         mListId = UUID.randomUUID();
+        mCreatorId = userId;
         mListUsers = new ArrayList<String>();                                 // the Users of the list
         mListUsers.add(userId);
         mListTasks = new ArrayList<Task>();
@@ -40,6 +41,14 @@ public class List {
 
     public UUID getListId() {
         return mListId;
+    }
+
+    public String getCreatorId() {
+        return mCreatorId;
+    }
+
+    public void setCreatorId(String creatorId) {
+        mCreatorId = creatorId;
     }
 
     public String getListName() {

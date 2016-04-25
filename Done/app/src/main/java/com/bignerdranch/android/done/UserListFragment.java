@@ -16,8 +16,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.firebase.client.Firebase;
+
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.UUID;
 
 /**
  * Created by michalisgratsias on 03/04/16.
@@ -29,6 +33,7 @@ public class UserListFragment extends Fragment {
     private RecyclerView mListRecyclerView;        // RecyclerView creates only enough views to fill the screen and scrolls them
     private ListAdapter mAdapter;                  // Adapter controls the data to be displayed by RecyclerView
     private List mNewList;
+    private DataBaseLists listNew;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {   // it is Public because it can be called by various activities hosting it
@@ -81,6 +86,13 @@ public class UserListFragment extends Fragment {
         if (requestCode == 10) {
             String title = (String) data.getSerializableExtra(ListTitlePickerFragment.EXTRA_TITLE);
             mNewList.setListName(title);
+
+            listNew = new DataBaseLists();                      // saving new list data to database
+            listNew.setListId(mNewList.getListId().toString());
+            listNew.setListName(mNewList.getListName());
+            listNew.setCreatorId(mNewList.getCreatorId());
+            new Firebase("https://doneaau.firebaseio.com/lists/").child(listNew.getListId()).setValue(listNew);
+
             updateUI();
         }
     }
