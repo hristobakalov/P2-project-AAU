@@ -14,22 +14,18 @@ import java.util.UUID;
 public class User {
 
     private static final String TAG = "DoneActivity";
-    private UUID mUserId;
+    private String mUserId;
     private String mUserName;
     private String mPassword;
     private String mEmail;
     private Image mPhoto;
     private ArrayList<List> mUserLists;
-    private Context mAppContext;
     private static User sUser;
 
-    public User(Context appContext) {
-        mAppContext = appContext;
-        mUserId = UUID.randomUUID();
+    public User() {
+
         mUserLists = new ArrayList<List>();
-        mUserName = "John";                     // Test userName;
-        mPassword = "dfghdfgh";                 // Test password;
-        mEmail = "johnDD@cvb.com";              // Test email;
+/*
         for (int i = 1; i <= 5+(int)(Math.random()*20); i++) {       // random list number
             List l = new List(mUserId);
             l.setListName("To-do List # " + i + "- Chores");
@@ -43,6 +39,7 @@ public class User {
             }
             mUserLists.add(l);
         }
+*/
         //for (List l: mUserLists){                      //  TESTING THE DATA
         //for (Task t: l.getListTasks()) {
         //Log.d(TAG, " " + l.getListTasks().size());// + " " + t.getTaskName());
@@ -50,9 +47,9 @@ public class User {
         //}
     }
 
-    public static User get(Context c) {                     // creates list as a Singleton= only 1 User object possible
+    public static User get() {                     // creates list as a Singleton= only 1 User object possible
         if (sUser == null) {
-            sUser = new User(c.getApplicationContext());    // AppContext gives longer lifetime than Activities
+            sUser = new User();    // AppContext gives longer lifetime than Activities
         }
         return sUser;
     }
@@ -69,8 +66,12 @@ public class User {
         return null;
     }
 
-    public UUID getUserId() {
+    public String getUserId() {
         return mUserId;
+    }
+
+    public void setUserId(String userId) {
+        mUserId = userId;
     }
 
     public String getUserName() {

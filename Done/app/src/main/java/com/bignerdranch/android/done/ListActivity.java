@@ -35,13 +35,13 @@ public class ListActivity extends ActivityParent {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         UUID listId = (UUID) getIntent().getSerializableExtra(EXTRA_LIST_ID);
-        getSupportActionBar().setTitle(User.get(this).getList(listId).getListName());
+        getSupportActionBar().setTitle(User.get().getList(listId).getListName());
     }
 
     @Override
     public void onResume() {
         super.onResume();
         UUID listId = (UUID) getIntent().getSerializableExtra(EXTRA_LIST_ID);
-        getSupportActionBar().setTitle(User.get(this).getList(listId).getListName());
+        getSupportActionBar().setTitle(User.get().getList(listId).getListName());
     }
 }

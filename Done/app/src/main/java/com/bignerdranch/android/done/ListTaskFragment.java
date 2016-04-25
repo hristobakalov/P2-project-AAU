@@ -46,7 +46,7 @@ public class ListTaskFragment extends Fragment{
         super.onCreate(savedInstanceState);
         setHasOptionsMenu(true);
         UUID listId = (UUID) getArguments().getSerializable(ARG_LIST_ID);   // accessing Fragment arguments for task id
-        mList = User.get(getActivity()).getList(listId);                    // using a get method to get List from id
+        mList = User.get().getList(listId);                    // using a get method to get List from id
     }
 
     private RecyclerView mTaskRecyclerView;         // RecyclerView creates only enough views to fill the screen and scrolls them

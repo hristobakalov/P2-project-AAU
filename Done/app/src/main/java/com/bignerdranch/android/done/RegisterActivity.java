@@ -2,24 +2,16 @@ package com.bignerdranch.android.done;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.support.v4.app.NavUtils;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.text.TextUtils;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.firebase.client.DataSnapshot;
 import com.firebase.client.Firebase;
-import com.firebase.client.FirebaseError;
-import com.firebase.client.ValueEventListener;
 
-import java.util.Map;
+import java.util.UUID;
 
 public class RegisterActivity extends AppCompatActivity {
 
@@ -30,7 +22,7 @@ public class RegisterActivity extends AppCompatActivity {
     private EditText mEditTextRepeatPassword;
     private Button mButtonRegister;
     private String fireBaseUrl;
-    private UserTest userNew;
+    private DataBaseUsers userNew;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -64,10 +56,9 @@ public class RegisterActivity extends AppCompatActivity {
             }
         });
         */
-        //final UserTest test = new UserTest("Just Test", 1995);
-        userNew = UserTest.get();
+        //final DataBaseUsers test = new DataBaseUsers("Just Test", 1995);
 
-        //final UserTest testTwo = new UserTest(); //test user
+        //final DataBaseUsers testTwo = new DataBaseUsers(); //test user
         mButtonRegister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -95,10 +86,18 @@ public class RegisterActivity extends AppCompatActivity {
                 }
                 else {
 
+                    userNew = new DataBaseUsers();
+                    userNew.setUserId(UUID.randomUUID().toString());
                     userNew.setEmail(email);
                     userNew.setUserName(name);
                     userNew.setPassword(password);
                     mRef.child(userNew.getUserId()).setValue(userNew);
+
+                    User.get().setUserId(userNew.getUserId());                                 // User class initialized from database user data
+                    User.get().setUserName(name);
+                    User.get().setEmail(email);
+                    User.get().setPassword(password);
+
                     Toast.makeText(getApplicationContext(), "User registered", Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent(getApplicationContext(), UserActivity.class);
                     startActivity(intent);

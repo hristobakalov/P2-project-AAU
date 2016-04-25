@@ -62,8 +62,8 @@ public class UserListFragment extends Fragment {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.menu_item_new_list:
-                mNewList = new List(User.get(getActivity()).getUserId());
-                User.get(getActivity()).addUserList(mNewList);
+                mNewList = new List(User.get().getUserId());
+                User.get().addUserList(mNewList);
                 FragmentManager manager = getFragmentManager();
                 ListTitlePickerFragment dialog = new ListTitlePickerFragment(); //shows dialog for new list
                 dialog.setTargetFragment(UserListFragment.this, 10);
@@ -86,7 +86,7 @@ public class UserListFragment extends Fragment {
     }
 
     private void updateUI() {
-        User user = User.get(getActivity());            // creates User and its Data if not already there (Singleton)
+        User user = User.get();            // creates User and its Data if not already there (Singleton)
         ArrayList<List> lists = user.getUserLists();    // gets all Lists of the User
         if (mAdapter == null) {
             mAdapter = new ListAdapter(lists);          // gives lists to adapter

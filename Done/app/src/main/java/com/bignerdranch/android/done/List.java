@@ -13,14 +13,17 @@ public class List {
     private UUID mListId;
     private UUID mUserId;
     private String mListName;
-    private ArrayList<UUID> mListUsers;
+    private ArrayList<String> mListUsers;
     private ArrayList<Task> mListTasks;
 
-    public List(UUID userId) {
+    public List(String userId) {
         mListId = UUID.randomUUID();
-        mListUsers = new ArrayList<UUID>();                                 // the Users of the list
+        mListUsers = new ArrayList<String>();                                 // the Users of the list
         mListUsers.add(userId);
         mListTasks = new ArrayList<Task>();
+    }
+
+    public List() {
     }
 
     public ArrayList<Task> getListTasks() {                                 // get all List Tasks
@@ -47,15 +50,15 @@ public class List {
         mListName = listName;
     }
 
-    public ArrayList<UUID> getListUsers() {
+    public ArrayList<String> getListUsers() {
         return mListUsers;
     }
 
-    public void addListUser(UUID id) {
+    public void addListUser(String id) {
         mListUsers.add(id);
     }
 
-    public void removeListUser(UUID id) {
+    public void removeListUser(String id) {
         mListUsers.remove(id);
     }
 

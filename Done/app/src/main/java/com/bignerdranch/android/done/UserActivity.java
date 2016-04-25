@@ -21,13 +21,13 @@ public class UserActivity extends ActivityParent {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getSupportActionBar().setTitle("My " + User.get(getApplicationContext()).getUserLists().size() + " To-Do Lists");
+        getSupportActionBar().setTitle("My " + User.get().getUserLists().size() + " To-Do Lists");
     }
 
     @Override
     public void onResume() {
         super.onResume();
-        getSupportActionBar().setTitle("My " + User.get(getApplicationContext()).getUserLists().size() + " To-Do Lists");
+        getSupportActionBar().setTitle("My " + User.get().getUserLists().size() + " To-Do Lists");
     }
 }
 

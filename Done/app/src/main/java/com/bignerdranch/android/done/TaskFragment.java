@@ -61,7 +61,7 @@ public class TaskFragment extends Fragment{
         super.onCreate(savedInstanceState);
         UUID taskId = (UUID) getArguments().getSerializable(ARG_TASK_ID);   // accessing Fragment arguments for task id
         UUID listId = (UUID) getArguments().getSerializable(ARG_LIST_ID);   //  RETRIEVES List ID from Intent
-        mTask = User.get(getActivity()).getList(listId).getTask(taskId);    // using a get method to get Task from ids
+        mTask = User.get().getList(listId).getTask(taskId);    // using a get method to get Task from ids
     }
 
     private RecyclerView mTaskRecyclerView;         // RecyclerView creates only enough views to fill the screen and scrolls them
@@ -98,7 +98,7 @@ public class TaskFragment extends Fragment{
             case 2: {
                 String note = (String) data.getSerializableExtra(NotesPickerFragment.EXTRA_TITLE);
                 mTask.addNote(note);
-                mNotesText.setText(mNotesText.getText() + "\n" + User.get(getActivity()).getUserName() + ": "+note);
+                mNotesText.setText(mNotesText.getText() + "\n" + User.get().getUserName() + ": "+note);
                 break;
             }
 
@@ -222,7 +222,7 @@ public class TaskFragment extends Fragment{
             super(itemView);
             mAddNote = (Button) itemView.findViewById(R.id.add_note);
             mNotesText = (TextView) itemView.findViewById(R.id.notes);
-            for (String n: mTask.getNotes()) mNotesText.setText(mNotesText.getText()+"\n"+ User.get(getActivity()).getUserName() + ": "+n);
+            for (String n: mTask.getNotes()) mNotesText.setText(mNotesText.getText()+"\n"+ User.get().getUserName() + ": "+n);
         }
         public void bindTask() {
             mAddNote.setOnClickListener(new View.OnClickListener() {

@@ -7,17 +7,14 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.firebase.client.ChildEventListener;
 import com.firebase.client.DataSnapshot;
 import com.firebase.client.Firebase;
 import com.firebase.client.FirebaseError;
-import com.firebase.client.ValueEventListener;
 
 import java.util.*;
-import java.util.List;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -25,7 +22,7 @@ public class LoginActivity extends AppCompatActivity {
     EditText mEditTextEmail;
     EditText mEditTextPassword;
     Button mButtonLogin;
-    ArrayList<UserTest> userList = new ArrayList<UserTest>();
+    ArrayList<DataBaseUsers> userList = new ArrayList<DataBaseUsers>();
     ;
 
     @Override
@@ -49,7 +46,7 @@ public class LoginActivity extends AppCompatActivity {
             // Retrieve new posts as they are added to the database
             @Override
             public void onChildAdded(DataSnapshot snapshot, String previousChildKey) {
-                UserTest user = snapshot.getValue(UserTest.class);
+                DataBaseUsers user = snapshot.getValue(DataBaseUsers.class);
                 //System.out.println(user.getEmail());
                 userList.add(user);
             }
@@ -82,9 +79,9 @@ public class LoginActivity extends AppCompatActivity {
                 System.out.println("There are " + snapshot.getChildrenCount() + " users");
                 DataSnapshot snap = snapshot;
                 System.out.println(snap.getValue());
-                ArrayList<UserTest> test = new ArrayList<UserTest>();
+                ArrayList<DataBaseUsers> test = new ArrayList<DataBaseUsers>();
                 for (DataSnapshot postSnapshot : snapshot.getChildren()) {
-                    UserTest user = postSnapshot.getValue(UserTest.class);
+                    DataBaseUsers user = postSnapshot.getValue(DataBaseUsers.class);
                     System.out.println(user.getEmail() + " - " + user.getPassword());
                 }
             }
@@ -111,13 +108,14 @@ public class LoginActivity extends AppCompatActivity {
                                                 } else {
                                                     boolean userExists = false;
                                                     for (int i = 0; i < userList.size(); i++) {
-                                                        UserTest currUser = userList.get(i);
+                                                        DataBaseUsers currUser = userList.get(i);
                                                         if (emailText.equals(currUser.getEmail()) && passwordText.equals(currUser.getPassword())) { //USER LOGIN SUCCESSFUL
-                                                            UserTest user = UserTest.get();
-                                                            user.setPassword(currUser.getPassword());
-                                                            user.setEmail(currUser.getEmail());
-                                                            user.setUserName(currUser.getUserName());
-                                                            user.setUserId(currUser.getUserId());
+
+                                                            User.get().setPassword(currUser.getPassword());
+                                                            User.get().setEmail(currUser.getEmail());
+                                                            User.get().setUserName(currUser.getUserName());
+                                                            User.get().setUserId(currUser.getUserId());
+
                                                             userExists = true;
                                                             Toast.makeText(getApplicationContext(), "Login successful", Toast.LENGTH_SHORT).show();
                                                             Intent intent = new Intent(getApplicationContext(), UserActivity.class);
