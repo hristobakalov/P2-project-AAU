@@ -15,7 +15,7 @@
         <activity
             android:name=".UserActivity"
             android:label="Done"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".ListActivity"
             android:label="Done"
@@ -43,6 +43,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <service
+            android:name=".FireBaseDataRetrieve"
+            android:enabled="true"
+            android:exported="true"></service>
     </application>
 
 </manifest>

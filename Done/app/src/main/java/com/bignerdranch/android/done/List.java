@@ -43,6 +43,11 @@ public class List {
         return mListId;
     }
 
+    public void setListId(String listId){
+        System.out.println(listId);
+        mListId = UUID.fromString(listId);
+    }
+
     public String getCreatorId() {
         return mCreatorId;
     }

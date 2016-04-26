@@ -59,6 +59,10 @@ public class Task {
         return mTaskId;
     }
 
+    public void setTaskId (UUID taskId){
+        mTaskId = taskId;
+    }
+
     public UUID getListId() {
         return mListId;
     }

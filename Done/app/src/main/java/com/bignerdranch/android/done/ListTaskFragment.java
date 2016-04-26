@@ -113,7 +113,6 @@ public class ListTaskFragment extends Fragment{
 
             Map<String, Object> taskId = new HashMap<String, Object>();
             taskId.put(taskNew.getTaskId(), true);
-            new Firebase("https://doneaau.firebaseio.com/lists/"+taskNew.getListId()+"/tasks/").updateChildren(taskId);
 
             updateUI();
         }
