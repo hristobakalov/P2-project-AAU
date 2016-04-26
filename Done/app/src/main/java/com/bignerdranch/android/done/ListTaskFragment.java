@@ -22,6 +22,8 @@ import com.firebase.client.Firebase;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.UUID;
 
 /**
@@ -107,7 +109,11 @@ public class ListTaskFragment extends Fragment{
             taskNew.setListId(mNewTask.getListId().toString());
             taskNew.setTaskName(mNewTask.getTaskName());
             taskNew.setCreatedDate(format.format(mNewTask.getCreatedDate()));
-            new Firebase("https://doneaau.firebaseio.com/lists/"+taskNew.getListId()+"/tasks/").child(taskNew.getTaskId()).setValue(taskNew);
+            new Firebase("https://doneaau.firebaseio.com/tasks/").child(taskNew.getTaskId()).setValue(taskNew);
+
+            Map<String, Object> taskId = new HashMap<String, Object>();
+            taskId.put(taskNew.getTaskId(), true);
+            new Firebase("https://doneaau.firebaseio.com/lists/"+taskNew.getListId()+"/tasks/").updateChildren(taskId);
 
             updateUI();
         }

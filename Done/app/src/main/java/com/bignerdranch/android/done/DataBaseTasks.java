@@ -1,6 +1,5 @@
 package com.bignerdranch.android.done;
 
-import java.util.ArrayList;
 
 /**
  * Created by michalisgratsias on 26/04/16.
@@ -11,12 +10,10 @@ public class DataBaseTasks {
     private String mListId;
     private String mCreatedDate;
     private String mTaskName;
-    private ArrayList<String> mAssignees;
-    private ArrayList<String> mViewers;
     private String mDueDate;
     private String mReminderDate;
-    private ArrayList<String> mNotes;
-    private ArrayList<String> mPhotos;
+    private String mNotes;
+    private String mPhotos;
     private boolean mCompleted;
     private boolean mVerified;
 
@@ -55,22 +52,6 @@ public class DataBaseTasks {
         mTaskName = taskName;
     }
 
-    public ArrayList<String> getAssignees() {
-        return mAssignees;
-    }
-
-    public void setAssignees(ArrayList<String> assignees) {
-        mAssignees = assignees;
-    }
-
-    public ArrayList<String> getViewers() {
-        return mViewers;
-    }
-
-    public void setViewers(ArrayList<String> viewers) {
-        mViewers = viewers;
-    }
-
     public String getDueDate() {
         return mDueDate;
     }
@@ -87,19 +68,19 @@ public class DataBaseTasks {
         mReminderDate = reminderDate;
     }
 
-    public ArrayList<String> getNotes() {
+    public String getNotes() {
         return mNotes;
     }
 
-    public void setNotes(ArrayList<String> notes) {
+    public void setNotes(String notes) {
         mNotes = notes;
     }
 
-    public ArrayList<String> getPhotos() {
+    public String getPhotos() {
         return mPhotos;
     }
 
-    public void setPhotos(ArrayList<String> photos) {
+    public void setPhotos(String photos) {
         mPhotos = photos;
     }
 

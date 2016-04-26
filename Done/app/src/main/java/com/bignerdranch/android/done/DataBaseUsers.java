@@ -48,7 +48,8 @@ public class DataBaseUsers {
     }
 
     public void setUserId(String userId){
-        this.userId = userId;}
+        this.userId = userId;
+    }
 
     public String getUserName() {
         return userName;
@@ -73,7 +74,5 @@ public class DataBaseUsers {
     public void setEmail(String email) {
         this.email = email;
     }
-
-
 }
 
