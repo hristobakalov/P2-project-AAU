@@ -34,37 +34,30 @@ public class FireBaseDataRetrieve extends Service {
         currUser = User.get();
         Firebase mRefLists = new Firebase("https://doneaau.firebaseio.com/lists/");
         mRefLists.addChildEventListener(new ChildEventListener() {
-            // Retrieve new posts as they are added to the database
+            // Retrieve new lists as they are added to the database
             @Override
             public void onChildAdded(DataSnapshot snapshot, String previousChildKey) {
 
                 DataBaseLists list = snapshot.getValue(DataBaseLists.class);
-                mUserLists.add(list);
-                boolean listAlreadyAdded = currUser.getList(UUID.fromString(list.getListId()))!= null;
-                if (currUser.getUserId().equals(list.getCreatorId()) && !listAlreadyAdded) { //DATA CHECK TO ENSURE THERE IS NO REPETION ON DATA
-                    com.bignerdranch.android.done.List currList = new com.bignerdranch.android.done.List(list.getCreatorId());
+                if (currUser.getUserId().equals(list.getCreatorId())) { //ONLY SHOWS LISTS OF THIS USER
+                    List currList = new List(list.getCreatorId());
                     currList.setListId(list.getListId());
                     currList.setListName(list.getListName());
-                    currUser.addUserList(currList);
-                    //Toast.makeText(getBaseContext(), list.getListName(), Toast.LENGTH_SHORT).show();
+                    currList.setCreatorId(list.getCreatorId());
+                    currUser.addUserList(currList);                     // ADDS DATABASE LIST TO USER LISTS-ARRAY
                 }
-
-
             }
 
             @Override
             public void onChildChanged(DataSnapshot dataSnapshot, String s) {
-
             }
 
             @Override
             public void onChildRemoved(DataSnapshot dataSnapshot) {
-
             }
 
             @Override
             public void onChildMoved(DataSnapshot dataSnapshot, String s) {
-
             }
 
             @Override
@@ -72,59 +65,42 @@ public class FireBaseDataRetrieve extends Service {
                 System.out.println("The read failed: " + firebaseError.getMessage());
             }
         });
+
         Firebase mRefTasks = new Firebase("https://doneaau.firebaseio.com/tasks/");
         mRefTasks.addChildEventListener(new ChildEventListener() {
-            // Retrieve new posts as they are added to the database
+            // Retrieve new tasks as they are added to the database
             @Override
             public void onChildAdded(DataSnapshot snapshot, String previousChildKey) {
 
-                //Object snapShot = snapshot.getValue();
-                //com.bignerdranch.android.done.List currList = new com.bignerdranch.android.done.List(snapshot.child("creatorId").getValue().toString());
-                //currList.setListName(snapshot.child("listName").getValue().toString());
-                //currList.setListId(snapshot.child("listId").getValue().toString());
-                // snapshot.child("tasks").getValue(DataBaseTasks.class);
                 DataBaseTasks task = snapshot.getValue(DataBaseTasks.class);
-                mUserTasks.add(task);
 
-                Task userTask = new Task(UUID.fromString(task.getListId()));
-                userTask.setCompleted(task.isCompleted());
-                //SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm");
-                //Date date = dateFormat.parse(strDate);
-                //userTask.setCreatedDate(Date.valueOf(task.getCreatedDate()));
-                //userTask.setDueDate(Date.valueOf(task.getDueDate()));
-                userTask.setTaskId(UUID.fromString(task.getTaskId()));
-                userTask.setVerified(task.isVerified());
-                userTask.setTaskName(task.getTaskName());
+                List listForTask = currUser.getList(task.getListId());
 
-                List listForTask = currUser.getList(userTask.getListId());
+                if (listForTask != null) { //ONLY SHOWS TASKS OF THIS USER
 
-                if (listForTask != null) { //DATA CHECK TO ENSURE THERE IS NO REPETION ON DATA
-                    boolean taskAlreadyExists = listForTask.getTask(userTask.getTaskId()) != null;
-                    if(!taskAlreadyExists){
-                        listForTask = currUser.getList(userTask.getListId());
-                        listForTask.addListTask(userTask);
-                    }
+                    Task userTask = new Task(task.getListId());
+                    userTask.setTaskId(task.getTaskId());
+                    userTask.setListId(task.getListId());
+                    userTask.setTaskName(task.getTaskName());
+                    userTask.setCreatedDate(Date.valueOf(task.getCreatedDate()));
+                    userTask.setCompleted(task.isCompleted());
+                    userTask.setVerified(task.isVerified());
+
+                    listForTask.addListTask(userTask); // ADDS TASK TO THE CORRECT LIST
 
                 }
-
-                //System.out.println(task.getTaskName());
-                //System.out.println(user.getEmail());
-                //userList.add(user);
             }
 
             @Override
             public void onChildChanged(DataSnapshot dataSnapshot, String s) {
-
             }
 
             @Override
             public void onChildRemoved(DataSnapshot dataSnapshot) {
-
             }
 
             @Override
             public void onChildMoved(DataSnapshot dataSnapshot, String s) {
-
             }
 
             @Override

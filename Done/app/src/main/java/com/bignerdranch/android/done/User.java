@@ -58,7 +58,7 @@ public class User {
         return mUserLists;
     }
 
-    public List getList(UUID id) {                                  // get a User-List by ID
+    public List getList(String id) {                                  // get a User-List by ID
         for (List l : mUserLists) {
             if (l.getListId().equals(id))
                 return l;

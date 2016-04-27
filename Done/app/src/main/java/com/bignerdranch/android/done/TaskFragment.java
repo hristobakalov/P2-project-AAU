@@ -47,7 +47,7 @@ public class TaskFragment extends Fragment{
     private CheckBox mVerifiedCheckBox;
 
     // Fragment-Arguments work just like Intent-Extras for an Activity
-    public static TaskFragment newInstance(UUID taskId, UUID listId) {   // we use a method to create Fragment instead of using Constructor
+    public static TaskFragment newInstance(String taskId, String listId) {   // we use a method to create Fragment instead of using Constructor
         Bundle args = new Bundle();                         // creates Bundle for arguments
         args.putSerializable(ARG_TASK_ID, taskId);          // adds task ID to Bundle
         args.putSerializable(ARG_LIST_ID, listId);          // adds list ID to Bundle
@@ -59,8 +59,8 @@ public class TaskFragment extends Fragment{
     @Override
     public void onCreate(Bundle savedInstanceState) {       // it is Public because it can be called by various activities hosting it
         super.onCreate(savedInstanceState);
-        UUID taskId = (UUID) getArguments().getSerializable(ARG_TASK_ID);   // accessing Fragment arguments for task id
-        UUID listId = (UUID) getArguments().getSerializable(ARG_LIST_ID);   //  RETRIEVES List ID from Intent
+        String taskId = (String) getArguments().getSerializable(ARG_TASK_ID);   // accessing Fragment arguments for task id
+        String listId = (String) getArguments().getSerializable(ARG_LIST_ID);   //  RETRIEVES List ID from Intent
         mTask = User.get().getList(listId).getTask(taskId);    // using a get method to get Task from ids
     }
 

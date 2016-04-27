@@ -10,17 +10,16 @@ import java.util.UUID;
  */
 public class List {
 
-    private UUID mListId;
+    private String mListId;
     private String mCreatorId;
     private String mListName;
     private ArrayList<String> mListUsers;
     private ArrayList<Task> mListTasks;
 
     public List(String userId) {
-        mListId = UUID.randomUUID();
+        //mListId = UUID.randomUUID().toString();
         mCreatorId = userId;
         mListUsers = new ArrayList<String>();                                 // the Users of the list
-        mListUsers.add(userId);
         mListTasks = new ArrayList<Task>();
     }
 
@@ -31,7 +30,7 @@ public class List {
         return mListTasks;
     }
 
-    public Task getTask(UUID id) {                                          // get a List Task by ID
+    public Task getTask(String id) {                                          // get a List Task by ID
         for (Task t : mListTasks) {
             if (t.getTaskId().equals(id))
                 return t;
@@ -39,14 +38,11 @@ public class List {
         return null;
     }
 
-    public UUID getListId() {
+    public String getListId() {
         return mListId;
     }
 
-    public void setListId(String listId){
-        System.out.println(listId);
-        mListId = UUID.fromString(listId);
-    }
+    public void setListId(String listId){mListId = listId;}
 
     public String getCreatorId() {
         return mCreatorId;

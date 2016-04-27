@@ -22,6 +22,7 @@ import com.firebase.client.Firebase;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
@@ -39,7 +40,7 @@ public class ListTaskFragment extends Fragment{
     private Task mNewTask;
     private DataBaseTasks taskNew;
 
-    public static ListTaskFragment newInstance(UUID listId) {   // we use a method to create Fragment instead of using Constructor
+    public static ListTaskFragment newInstance(String listId) {   // we use a method to create Fragment instead of using Constructor
         Bundle args = new Bundle();                         // creates Bundle for arguments
         args.putSerializable(ARG_LIST_ID, listId);          // adds task ID to Bundle
         ListTaskFragment fragment = new ListTaskFragment();         // creates Fragment instance
@@ -51,7 +52,7 @@ public class ListTaskFragment extends Fragment{
     public void onCreate(Bundle savedInstanceState) {       // it is Public because it can be called by various activities hosting it
         super.onCreate(savedInstanceState);
         setHasOptionsMenu(true);
-        UUID listId = (UUID) getArguments().getSerializable(ARG_LIST_ID);   // accessing Fragment arguments for task id
+        String listId = (String) getArguments().getSerializable(ARG_LIST_ID);   // accessing Fragment arguments for task id
         mList = User.get().getList(listId);                    // using a get method to get List from id
     }
 
@@ -84,8 +85,8 @@ public class ListTaskFragment extends Fragment{
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.menu_item_new_task:
-                mNewTask = new Task(mList.getListId());
-                mList.addListTask(mNewTask);
+                //mNewTask = new Task(mList.getListId());
+                //mList.addListTask(mNewTask);
                 FragmentManager manager = getFragmentManager();
                 TaskTitlePickerFragment dialog = new TaskTitlePickerFragment(); //shows dialog for new task
                 dialog.setTargetFragment(ListTaskFragment.this, 11);
@@ -102,13 +103,13 @@ public class ListTaskFragment extends Fragment{
         }
         if (requestCode == 11) {
             String title = (String) data.getSerializableExtra(TaskTitlePickerFragment.EXTRA_TITLE);
-            mNewTask.setTaskName(title);
+            //mNewTask.setTaskName(title);
 
             taskNew = new DataBaseTasks();                      // saving new task data to database
-            taskNew.setTaskId(mNewTask.getTaskId().toString());
+            taskNew.setTaskId(UUID.randomUUID().toString());
             taskNew.setListId(mNewTask.getListId().toString());
-            taskNew.setTaskName(mNewTask.getTaskName());
-            taskNew.setCreatedDate(format.format(mNewTask.getCreatedDate()));
+            taskNew.setTaskName(title);
+            taskNew.setCreatedDate(format.format(new Date()));
             new Firebase("https://doneaau.firebaseio.com/tasks/").child(taskNew.getTaskId()).setValue(taskNew);
 
             Map<String, Object> taskId = new HashMap<String, Object>();
