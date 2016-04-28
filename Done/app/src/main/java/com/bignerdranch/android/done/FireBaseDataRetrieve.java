@@ -3,22 +3,21 @@ package com.bignerdranch.android.done;
 import android.app.Service;
 import android.content.Intent;
 import android.os.IBinder;
+import android.util.Log;
 import android.widget.Toast;
-
 import com.firebase.client.ChildEventListener;
 import com.firebase.client.DataSnapshot;
 import com.firebase.client.Firebase;
 import com.firebase.client.FirebaseError;
-
-import java.sql.Date;
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.UUID;
+
 
 public class FireBaseDataRetrieve extends Service {
-    User currUser;
-    ArrayList<DataBaseLists> mUserLists = new ArrayList<>();
-    ArrayList<DataBaseTasks> mUserTasks = new ArrayList<>();
+
+    private static final String TAG = "DoneActivity";
+    SimpleDateFormat format = new SimpleDateFormat("EEE MMM dd, yyyy hh:mm a");
+    User curUser;
 
     public FireBaseDataRetrieve() {
     }
@@ -30,8 +29,11 @@ public class FireBaseDataRetrieve extends Service {
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        Toast.makeText(this, "service started", Toast.LENGTH_SHORT).show();
-        currUser = User.get();
+        Toast.makeText(this, "Service started", Toast.LENGTH_SHORT).show();
+
+        curUser = User.get();
+        Log.d(TAG, "User Name: " + User.get().getUserName());                // LOGS THE NAME OF THE USER
+
         Firebase mRefLists = new Firebase("https://doneaau.firebaseio.com/lists/");
         mRefLists.addChildEventListener(new ChildEventListener() {
             // Retrieve new lists as they are added to the database
@@ -39,12 +41,22 @@ public class FireBaseDataRetrieve extends Service {
             public void onChildAdded(DataSnapshot snapshot, String previousChildKey) {
 
                 DataBaseLists list = snapshot.getValue(DataBaseLists.class);
-                if (currUser.getUserId().equals(list.getCreatorId())) { //ONLY SHOWS LISTS OF THIS USER
-                    List currList = new List(list.getCreatorId());
-                    currList.setListId(list.getListId());
-                    currList.setListName(list.getListName());
-                    currList.setCreatorId(list.getCreatorId());
-                    currUser.addUserList(currList);                     // ADDS DATABASE LIST TO USER LISTS-ARRAY
+
+                if (curUser.getUserId().equals(list.getCreatorId())) {      // THE DATABASE LIST IS CREATED BY THIS USER
+
+                    Log.d(TAG, "List Name: " + list.getListName());          // LOGS THE NAME OF THE LIST
+
+                    boolean listAlreadyAdded = curUser.getList(list.getListId()) != null;
+
+                    Log.d(TAG, "List already added: " + listAlreadyAdded);  // LOGS IF THE LIST IS ALREADY ADDED TO LISTS-ARRAY
+
+                    if (!listAlreadyAdded) {                                // LIST IS NOT YET ADDED TO USER LISTS-ARRAY
+                        List currList = new List(list.getCreatorId());
+                        currList.setListId(list.getListId());
+                        currList.setListName(list.getListName());
+                        currList.setCreatorId(list.getCreatorId());
+                        curUser.addUserList(currList);                      // ADDS DATABASE LIST TO USER LISTS-ARRAY
+                    }
                 }
             }
 
@@ -74,20 +86,30 @@ public class FireBaseDataRetrieve extends Service {
 
                 DataBaseTasks task = snapshot.getValue(DataBaseTasks.class);
 
-                List listForTask = currUser.getList(task.getListId());
+                List arrayListForTask = curUser.getList(task.getListId());
 
-                if (listForTask != null) { //ONLY SHOWS TASKS OF THIS USER
+                if (arrayListForTask != null) {                             // THERE IS A USER-LIST ADDED, WHERE THE TASK MUST GO
 
-                    Task userTask = new Task(task.getListId());
-                    userTask.setTaskId(task.getTaskId());
-                    userTask.setListId(task.getListId());
-                    userTask.setTaskName(task.getTaskName());
-                    userTask.setCreatedDate(Date.valueOf(task.getCreatedDate()));
-                    userTask.setCompleted(task.isCompleted());
-                    userTask.setVerified(task.isVerified());
+                    Log.d(TAG, "Task Name: " + task.getTaskName());         // LOGS THE NAME OF THE TASK
 
-                    listForTask.addListTask(userTask); // ADDS TASK TO THE CORRECT LIST
+                    boolean taskAlreadyAdded = arrayListForTask.getTask(task.getTaskId()) != null;
 
+                    Log.d(TAG, "Task already added: " + taskAlreadyAdded);  // LOGS IF THE TASK IS ALREADY ADDED TO TASKS-ARRAY
+
+                    if (!taskAlreadyAdded) {                                // TASK IS NOT YET ADDED TO USER-LIST TASKS-ARRAY
+                        Task userTask = new Task(task.getListId());
+                        userTask.setTaskId(task.getTaskId());
+                        userTask.setListId(task.getListId());
+                        userTask.setTaskName(task.getTaskName());
+                        try {
+                            userTask.setCreatedDate(format.parse(task.getCreatedDate()));
+                        } catch (ParseException e) {
+                        }
+                        userTask.setCompleted(task.isCompleted());
+                        userTask.setVerified(task.isVerified());
+
+                        arrayListForTask.addListTask(userTask);             // ADDS DATABASE TASK TO USER-LIST TASKS-ARRAY
+                    }
                 }
             }
 

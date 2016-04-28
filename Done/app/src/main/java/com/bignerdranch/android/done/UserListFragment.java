@@ -16,11 +16,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.firebase.client.Firebase;
 
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.UUID;
 
 /**
@@ -67,8 +70,6 @@ public class UserListFragment extends Fragment {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.menu_item_new_list:
-                //mNewList = new List(User.get().getUserId());
-                //User.get().addUserList(mNewList);
                 FragmentManager manager = getFragmentManager();
                 ListTitlePickerFragment dialog = new ListTitlePickerFragment(); //shows dialog for new list
                 dialog.setTargetFragment(UserListFragment.this, 10);
@@ -85,7 +86,6 @@ public class UserListFragment extends Fragment {
         }
         if (requestCode == 10) {
             String title = (String) data.getSerializableExtra(ListTitlePickerFragment.EXTRA_TITLE);
-            //mNewList.setListName(title);
 
             listNew = new DataBaseLists();                      // saving new list data to database
             listNew.setListId(UUID.randomUUID().toString());
@@ -93,7 +93,13 @@ public class UserListFragment extends Fragment {
             listNew.setCreatorId(User.get().getUserId());
             new Firebase("https://doneaau.firebaseio.com/lists/").child(listNew.getListId()).setValue(listNew);
 
-            updateUI();
+            mNewList = new List(User.get().getUserId());        // adding new List to Array
+            mNewList.setListId(listNew.getListId());
+            mNewList.setListName(title);
+            mNewList.setCreatorId(User.get().getUserId());
+            User.get().addUserList(mNewList);
+
+            updateUI();                                         // and updating UI
         }
     }
 
@@ -128,7 +134,7 @@ public class UserListFragment extends Fragment {
         public void bindList(List list) {                   // list data entered in fragment viewholder
             mList = list;
             mTitleTextView.setText(mList.getListName());
-            mTaskButton.setText(""+mList.getListTasks().size());
+            mTaskButton.setText(""+mList.getListTasks().size());            // updates task count
             mTaskButton.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {

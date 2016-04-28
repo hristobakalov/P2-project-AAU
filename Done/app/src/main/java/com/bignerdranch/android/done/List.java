@@ -17,7 +17,6 @@ public class List {
     private ArrayList<Task> mListTasks;
 
     public List(String userId) {
-        //mListId = UUID.randomUUID().toString();
         mCreatorId = userId;
         mListUsers = new ArrayList<String>();                                 // the Users of the list
         mListTasks = new ArrayList<Task>();

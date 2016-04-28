@@ -20,6 +20,7 @@ import android.widget.TextView;
 
 import com.firebase.client.Firebase;
 
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
@@ -72,7 +73,7 @@ public class ListTaskFragment extends Fragment{
     @Override
     public void onResume() {
         super.onResume();
-        updateUI();
+        //updateUI();
     }
 
     @Override
@@ -85,8 +86,6 @@ public class ListTaskFragment extends Fragment{
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.menu_item_new_task:
-                //mNewTask = new Task(mList.getListId());
-                //mList.addListTask(mNewTask);
                 FragmentManager manager = getFragmentManager();
                 TaskTitlePickerFragment dialog = new TaskTitlePickerFragment(); //shows dialog for new task
                 dialog.setTargetFragment(ListTaskFragment.this, 11);
@@ -103,19 +102,27 @@ public class ListTaskFragment extends Fragment{
         }
         if (requestCode == 11) {
             String title = (String) data.getSerializableExtra(TaskTitlePickerFragment.EXTRA_TITLE);
-            //mNewTask.setTaskName(title);
 
             taskNew = new DataBaseTasks();                      // saving new task data to database
             taskNew.setTaskId(UUID.randomUUID().toString());
-            taskNew.setListId(mNewTask.getListId().toString());
+            taskNew.setListId(mList.getListId());
             taskNew.setTaskName(title);
-            taskNew.setCreatedDate(format.format(new Date()));
+            Date created = new Date();
+            taskNew.setCreatedDate(format.format(created));
             new Firebase("https://doneaau.firebaseio.com/tasks/").child(taskNew.getTaskId()).setValue(taskNew);
+            //Map<String, Object> taskId = new HashMap<String, Object>();
+            //taskId.put(taskNew.getTaskId(), true);
+            //new Firebase("https://doneaau.firebaseio.com/lists/"+taskNew.getListId()+"/tasks/").updateChildren(taskId);
 
-            Map<String, Object> taskId = new HashMap<String, Object>();
-            taskId.put(taskNew.getTaskId(), true);
+            mNewTask = new Task(mList.getListId());             // adding new Task to Array
+            mNewTask.setTaskId(taskNew.getTaskId());
+            mNewTask.setListId(taskNew.getListId());
+            mNewTask.setTaskName(title);
+            try {mNewTask.setCreatedDate(format.parse(taskNew.getCreatedDate()));}
+            catch(ParseException e){}
+            mList.addListTask(mNewTask);
 
-            updateUI();
+            updateUI();                                         // and updating UI
         }
     }
 

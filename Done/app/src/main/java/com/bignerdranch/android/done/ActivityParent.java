@@ -71,7 +71,7 @@ public abstract class ActivityParent extends AppCompatActivity implements Naviga
         int id = item.getItemId();
 
         if (id == R.id.nav_my_to_do_lists) {
-            // Get back to the original Lists page
+            // Get back to the original To-Do Lists page
             Intent intent = new Intent(getApplicationContext(), UserActivity.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
@@ -88,10 +88,8 @@ public abstract class ActivityParent extends AppCompatActivity implements Naviga
             // Handle notifications
         } else if (id == R.id.nav_sign_out) {
             // Sign out
-        }
-        else if (id == R.id.nav_login) {
-            // Login
-            Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
+            Intent intent = new Intent(getApplicationContext(), StartingPageActivity.class);
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
             finish();
         }

@@ -86,14 +86,15 @@ public class RegisterActivity extends AppCompatActivity {
                 }
                 else {
 
-                    userNew = new DataBaseUsers();
+                    userNew = new DataBaseUsers();                      // Saving User data to database
                     userNew.setUserId(UUID.randomUUID().toString());
                     userNew.setEmail(email);
                     userNew.setUserName(name);
                     userNew.setPassword(password);
                     mRef.child(userNew.getUserId()).setValue(userNew);
 
-                    User.get().setUserId(userNew.getUserId());                                 // User class initialized from database user data
+                    User.get().getUserLists().clear();                  // Existing User data emptied
+                    User.get().setUserId(userNew.getUserId());          // User initialized from database user-data
                     User.get().setUserName(name);
                     User.get().setEmail(email);
                     User.get().setPassword(password);

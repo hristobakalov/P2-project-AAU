@@ -13,43 +13,20 @@ import java.util.UUID;
  */
 public class User {
 
-    private static final String TAG = "DoneActivity";
     private String mUserId;
     private String mUserName;
     private String mPassword;
     private String mEmail;
-    private Image mPhoto;
     private ArrayList<List> mUserLists;
     private static User sUser;
 
     public User() {
-
         mUserLists = new ArrayList<List>();
-/*
-        for (int i = 1; i <= 5+(int)(Math.random()*20); i++) {       // random list number
-            List l = new List(mUserId);
-            l.setListName("To-do List # " + i + "- Chores");
-            l.addListUser(mUserId);
-            for (int j = 1; j <= 5+(int)(Math.random()*10); j++) {    // random task number
-                Task t = new Task(l.getListId());
-                t.setTaskName("Task # " + j);
-                t.setCreatedDate(new Date());
-                t.setCompleted(j % 2 == 0); // Every other one
-                l.getListTasks().add(t);
-            }
-            mUserLists.add(l);
-        }
-*/
-        //for (List l: mUserLists){                      //  TESTING THE DATA
-        //for (Task t: l.getListTasks()) {
-        //Log.d(TAG, " " + l.getListTasks().size());// + " " + t.getTaskName());
-        //}
-        //}
     }
 
-    public static User get() {                     // creates list as a Singleton= only 1 User object possible
+    public static User get() {             // creates list as a Singleton= only 1 User object possible
         if (sUser == null) {
-            sUser = new User();    // AppContext gives longer lifetime than Activities
+            sUser = new User();
         }
         return sUser;
     }
@@ -96,14 +73,6 @@ public class User {
 
     public void setEmail(String email) {
         mEmail = email;
-    }
-
-    public Image getPhoto() {
-        return mPhoto;
-    }
-
-    public void setPhoto(Image photo) {
-        mPhoto = photo;
     }
 
     public void addUserList(List list) {

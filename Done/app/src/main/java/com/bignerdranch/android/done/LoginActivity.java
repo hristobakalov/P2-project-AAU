@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -21,6 +22,7 @@ public class LoginActivity extends AppCompatActivity {
     EditText mEditTextPassword;
     Button mButtonLogin;
     ArrayList<DataBaseUsers> userList = new ArrayList<DataBaseUsers>();
+    private static final String TAG = "DoneActivity";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -90,44 +92,43 @@ public class LoginActivity extends AppCompatActivity {
         });*/
 
         mButtonLogin.setOnClickListener(new View.OnClickListener() {
-                                            @Override
-                                            public void onClick(View v) {
-                                                String emailText = mEditTextEmail.getText().toString();
-                                                String passwordText = mEditTextPassword.getText().toString();
-                                                if (emailText.isEmpty() || passwordText.isEmpty()) {
-                                                    Toast.makeText(getApplicationContext(), "There can't be any empty fields!", Toast.LENGTH_LONG).show();
-                                                } else if (!isValidEmail(emailText)) {
-                                                    Toast.makeText(getApplicationContext(), "The email is not valid!", Toast.LENGTH_LONG).show();
-                                                } else if (passwordText.length() < 6) {
-                                                    Toast.makeText(getApplicationContext(), "This password is too short", Toast.LENGTH_LONG).show();
-                                                } else if (passwordText.length() > 12) {
-                                                    Toast.makeText(getApplicationContext(), "This password is too long", Toast.LENGTH_LONG).show();
-                                                } else {
-                                                    boolean userExists = false;
-                                                    for (int i = 0; i < userList.size(); i++) {
-                                                        DataBaseUsers currUser = userList.get(i);
-                                                        if (emailText.equals(currUser.getEmail()) && passwordText.equals(currUser.getPassword())) { //USER LOGIN SUCCESSFUL
+            @Override
+            public void onClick(View v) {
+                String emailText = mEditTextEmail.getText().toString();
+                String passwordText = mEditTextPassword.getText().toString();
+                if (emailText.isEmpty() || passwordText.isEmpty()) {
+                    Toast.makeText(getApplicationContext(), "There can't be any empty fields!", Toast.LENGTH_LONG).show();
+                } else if (!isValidEmail(emailText)) {
+                    Toast.makeText(getApplicationContext(), "The email is not valid!", Toast.LENGTH_LONG).show();
+                } else if (passwordText.length() < 6) {
+                    Toast.makeText(getApplicationContext(), "This password is too short", Toast.LENGTH_LONG).show();
+                } else if (passwordText.length() > 12) {
+                    Toast.makeText(getApplicationContext(), "This password is too long", Toast.LENGTH_LONG).show();
+                } else {
+                    boolean userExists = false;
+                    for (int i = 0; i < userList.size(); i++) {
+                        DataBaseUsers currUser = userList.get(i);
+                        if (emailText.equals(currUser.getEmail()) && passwordText.equals(currUser.getPassword())) { //USER LOGIN SUCCESSFUL
 
-                                                            User.get().setPassword(currUser.getPassword());
-                                                            User.get().setEmail(currUser.getEmail());
-                                                            User.get().setUserName(currUser.getUserName());
-                                                            User.get().setUserId(currUser.getUserId());
+                            User.get().getUserLists().clear();                  // Existing User data emptied
+                            User.get().setUserId(currUser.getUserId());         // User initialized from database user-data
+                            User.get().setUserName(currUser.getUserName());
+                            User.get().setEmail(currUser.getEmail());
+                            User.get().setPassword(currUser.getPassword());
 
-                                                            userExists = true;
-                                                            Toast.makeText(getApplicationContext(), "Login successful", Toast.LENGTH_SHORT).show();
-                                                            Intent intent = new Intent(getApplicationContext(), UserActivity.class);
-                                                            startActivity(intent);
-                                                            break;
-                                                        }
-                                                    }
-                                                    if (!userExists) {
-                                                        Toast.makeText(getApplicationContext(), "Email or password incorrect", Toast.LENGTH_LONG).show();
-                                                    }
-                                                }
-
-                                            }
-                                        }
-        );
+                            userExists = true;
+                            Toast.makeText(getApplicationContext(), "Login successful", Toast.LENGTH_SHORT).show();
+                            Intent intent = new Intent(getApplicationContext(), UserActivity.class);
+                            startActivity(intent);
+                            break;
+                        }
+                    }
+                    if (!userExists) {
+                        Toast.makeText(getApplicationContext(), "Email or password incorrect", Toast.LENGTH_LONG).show();
+                    }
+                }
+            }
+        });
     }
 
     public final static boolean isValidEmail(CharSequence target) {
