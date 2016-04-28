@@ -1,182 +1,166 @@
 [
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\src\\main\\res\\menu\\main.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\src\\main\\res\\menu\\main.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\res\\merged\\debug\\menu\\fragment_user_list.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\src\\main\\res\\menu\\fragment_user_list.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\res\\merged\\debug\\menu\\fragment_user_list.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\src\\main\\res\\menu\\fragment_user_list.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/app/build/intermediates/res/merged/debug/menu/activity_main_drawer.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/app/src/main/res/menu/activity_main_drawer.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\res\\merged\\debug\\menu\\fragment_list_task.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\src\\main\\res\\menu\\fragment_list_task.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\res\\merged\\debug\\menu\\fragment_list_task.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\src\\main\\res\\menu\\fragment_list_task.xml"
+        "merged": "D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\menu\\fragment_list_task.xml",
+        "source": "D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\src\\main\\res\\menu\\fragment_list_task.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/app/build/intermediates/res/merged/debug/menu/fragment_list_task.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/app/src/main/res/menu/fragment_list_task.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\menu\\fragment_list_task.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\src\\main\\res\\menu\\fragment_list_task.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\src\\main\\res\\menu\\main.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\src\\main\\res\\menu\\main.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\src\\main\\res\\menu\\main.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\src\\main\\res\\menu\\main.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\src\\main\\res\\menu\\main.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\src\\main\\res\\menu\\main.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\res\\merged\\debug\\menu\\fragment_list_task.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\src\\main\\res\\menu\\fragment_list_task.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\src\\main\\res\\menu\\main.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\res\\merged\\debug\\menu\\fragment_list_task.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\src\\main\\res\\menu\\fragment_list_task.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\app\\build\\intermediates\\res\\merged\\debug\\menu\\fragment_user_list.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\app\\src\\main\\res\\menu\\fragment_user_list.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done Test\\app\\src\\main\\res\\menu\\main.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\app\\build\\intermediates\\res\\merged\\debug\\menu\\fragment_list_task.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\app\\src\\main\\res\\menu\\fragment_list_task.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\app\\build\\intermediates\\res\\merged\\debug\\menu\\fragment_user_list.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\app\\src\\main\\res\\menu\\fragment_user_list.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\app\\build\\intermediates\\res\\merged\\debug\\menu\\fragment_list_task.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\app\\src\\main\\res\\menu\\fragment_list_task.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\app\\src\\main\\res\\menu\\main.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+        "merged": "D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\src\\main\\res\\menu\\main.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\app\\src\\main\\res\\menu\\main.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\src\\main\\res\\menu\\main.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\src\\main\\res\\menu\\main.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\src\\main\\res\\menu\\main.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\res\\merged\\debug\\menu\\fragment_list_task.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\src\\main\\res\\menu\\fragment_list_task.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\P2-project-AAU\\Done\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\res\\merged\\debug\\menu\\fragment_list_task.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\src\\main\\res\\menu\\fragment_list_task.xml"
+        "merged": "D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
+        "source": "D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\DoneLast\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\menu\\fragment_user_list.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\src\\main\\res\\menu\\fragment_user_list.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\res\\merged\\debug\\menu\\fragment_user_list.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\src\\main\\res\\menu\\fragment_user_list.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\menu\\fragment_user_list.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\src\\main\\res\\menu\\fragment_user_list.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/app/build/intermediates/res/merged/debug/menu/main.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/app/src/main/res/menu/main.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\res\\merged\\debug\\menu\\fragment_user_list.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\src\\main\\res\\menu\\fragment_user_list.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\app\\build\\intermediates\\res\\merged\\debug\\menu\\fragment_user_list.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\app\\src\\main\\res\\menu\\fragment_user_list.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\src\\main\\res\\menu\\main.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\app\\build\\intermediates\\res\\merged\\debug\\menu\\fragment_user_list.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\app\\src\\main\\res\\menu\\fragment_user_list.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\menu\\fragment_user_list.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\src\\main\\res\\menu\\fragment_user_list.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\menu\\fragment_list_task.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\src\\main\\res\\menu\\fragment_list_task.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\src\\main\\res\\menu\\main.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_view_list.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\src\\main\\res\\menu\\menu_view_list.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\menu\\fragment_user_list.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\src\\main\\res\\menu\\fragment_user_list.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\res\\merged\\debug\\menu\\fragment_user_list.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\src\\main\\res\\menu\\fragment_user_list.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\menu\\fragment_list_task.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\src\\main\\res\\menu\\fragment_list_task.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\app\\src\\main\\res\\menu\\main.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_view_list.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\src\\main\\res\\menu\\menu_view_list.xml"
+        "merged": "D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\menu\\fragment_user_list.xml",
+        "source": "D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\src\\main\\res\\menu\\fragment_user_list.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\res\\merged\\debug\\menu\\fragment_user_list.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\src\\main\\res\\menu\\fragment_user_list.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\res\\merged\\debug\\menu\\fragment_list_task.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\src\\main\\res\\menu\\fragment_list_task.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\app\\src\\main\\res\\menu\\main.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\app\\build\\intermediates\\res\\merged\\debug\\menu\\fragment_list_task.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\app\\src\\main\\res\\menu\\fragment_list_task.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\menu\\fragment_user_list.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\src\\main\\res\\menu\\fragment_user_list.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\menu\\fragment_list_task.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\src\\main\\res\\menu\\fragment_list_task.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/app/build/intermediates/res/merged/debug/menu/fragment_user_list.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/app/src/main/res/menu/fragment_user_list.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\src\\main\\res\\menu\\main.xml"
     },
     {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\build\\intermediates\\res\\merged\\debug\\menu\\fragment_list_task.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done+\\app\\src\\main\\res\\menu\\fragment_list_task.xml"
-    },
-    {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\app\\build\\intermediates\\res\\merged\\debug\\menu\\fragment_list_task.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\app\\src\\main\\res\\menu\\fragment_list_task.xml"
-    },
-    {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\build\\intermediates\\res\\merged\\debug\\menu\\fragment_list_task.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\AAU things\\Semester 2\\P2 project\\P2-project-AAU\\Done\\app\\src\\main\\res\\menu\\fragment_list_task.xml"
-    },
-    {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done after +\\app\\src\\main\\res\\menu\\main.xml"
-    },
-    {
-        "merged": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\res\\merged\\debug\\menu\\fragment_user_list.xml",
-        "source": "/Users/michalisgratsias/AndroidStudioProjects/Retrieve/D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\src\\main\\res\\menu\\fragment_user_list.xml"
+        "merged": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\build\\intermediates\\res\\merged\\debug\\menu\\fragment_user_list.xml",
+        "source": "D:\\Users\\michalisgratsias\\AndroidStudioProjects\\HristoPrev\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Hristo\\D:\\Users\\michalisgratsias\\AndroidStudioProjects\\Done\\app\\src\\main\\res\\menu\\fragment_user_list.xml"
     }
 ]

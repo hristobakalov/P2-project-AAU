@@ -10,8 +10,8 @@ import java.util.UUID;
  */
 public class Task {
 
-    private String mTaskId;
-    private String mListId;
+    private UUID mTaskId;
+    private UUID mListId;
     private Date mCreatedDate;
     private String mTaskName;
     private ArrayList<String> mAssignees;
@@ -23,7 +23,24 @@ public class Task {
     private boolean mCompleted;
     private boolean mVerified;
 
-    public Task(String listId) {                  // constructor with Task ID, List ID
+    public Task(String taskName, ArrayList<String> assignees,
+                ArrayList<String> viewers, Date dueDate, Date reminderDate,
+                ArrayList<String> notes, ArrayList<Image> photos,
+                boolean completed, boolean verified) {
+        mTaskName = taskName;
+        mAssignees = assignees;
+        mViewers = viewers;
+        mDueDate = dueDate;
+        mReminderDate = reminderDate;
+        mNotes = notes;
+        mPhotos = photos;
+        mCompleted = completed;
+        mVerified = verified;
+    }
+
+    public Task(UUID listId) {                  // constructor with Task ID, List ID
+        mTaskId = UUID.randomUUID();
+        mCreatedDate = new Date();
         mListId = listId;
         mAssignees = new ArrayList<>();
         mViewers= new ArrayList<>();
@@ -38,20 +55,16 @@ public class Task {
     public Task() {
     }
 
-    public String getTaskId() {
+    public UUID getTaskId() {
         return mTaskId;
     }
 
-    public void setTaskId (String taskId){
+    public void setTaskId (UUID taskId){
         mTaskId = taskId;
     }
 
-    public String getListId() {
+    public UUID getListId() {
         return mListId;
-    }
-
-    public void setListId(String listId) {
-        mListId = listId;
     }
 
     public String getTaskName() {

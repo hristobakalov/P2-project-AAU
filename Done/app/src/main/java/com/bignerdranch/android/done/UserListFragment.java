@@ -67,8 +67,8 @@ public class UserListFragment extends Fragment {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.menu_item_new_list:
-                //mNewList = new List(User.get().getUserId());
-                //User.get().addUserList(mNewList);
+                mNewList = new List(User.get().getUserId());
+                User.get().addUserList(mNewList);
                 FragmentManager manager = getFragmentManager();
                 ListTitlePickerFragment dialog = new ListTitlePickerFragment(); //shows dialog for new list
                 dialog.setTargetFragment(UserListFragment.this, 10);
@@ -85,12 +85,12 @@ public class UserListFragment extends Fragment {
         }
         if (requestCode == 10) {
             String title = (String) data.getSerializableExtra(ListTitlePickerFragment.EXTRA_TITLE);
-            //mNewList.setListName(title);
+            mNewList.setListName(title);
 
             listNew = new DataBaseLists();                      // saving new list data to database
-            listNew.setListId(UUID.randomUUID().toString());
-            listNew.setListName(title);
-            listNew.setCreatorId(User.get().getUserId());
+            listNew.setListId(mNewList.getListId().toString());
+            listNew.setListName(mNewList.getListName());
+            listNew.setCreatorId(mNewList.getCreatorId());
             new Firebase("https://doneaau.firebaseio.com/lists/").child(listNew.getListId()).setValue(listNew);
 
             updateUI();

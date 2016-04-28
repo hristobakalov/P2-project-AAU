@@ -18,7 +18,7 @@ public class ListActivity extends ActivityParent {
 
     private static final String EXTRA_LIST_ID = "com.bignerdranch.android.done.list_id";
 
-    public static Intent newIntent(Context packageContext, String listID) {      // PASSES the listId as an Intent Extra
+    public static Intent newIntent(Context packageContext, UUID listID) {      // PASSES the listId as an Intent Extra
         Intent intent = new Intent(packageContext, ListActivity.class);         // for the ListFragment
         intent.putExtra(EXTRA_LIST_ID, listID);
         return intent;
@@ -27,21 +27,21 @@ public class ListActivity extends ActivityParent {
 
     @Override
     protected Fragment createFragment() {
-        String listId = (String) getIntent().getSerializableExtra(EXTRA_LIST_ID);
+        UUID listId = (UUID) getIntent().getSerializableExtra(EXTRA_LIST_ID);
         return ListTaskFragment.newInstance(listId);
     }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        String listId = (String) getIntent().getSerializableExtra(EXTRA_LIST_ID);
+        UUID listId = (UUID) getIntent().getSerializableExtra(EXTRA_LIST_ID);
         getSupportActionBar().setTitle(User.get().getList(listId).getListName());
     }
 
     @Override
     public void onResume() {
         super.onResume();
-        String listId = (String) getIntent().getSerializableExtra(EXTRA_LIST_ID);
+        UUID listId = (UUID) getIntent().getSerializableExtra(EXTRA_LIST_ID);
         getSupportActionBar().setTitle(User.get().getList(listId).getListName());
     }
 }
